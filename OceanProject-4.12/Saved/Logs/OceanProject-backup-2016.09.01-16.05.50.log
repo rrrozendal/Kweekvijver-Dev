@@ -1,0 +1,1415 @@
+﻿Log file open, 09/01/16 11:33:52
+LogInit:Display: Running engine for game: OceanProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(628685875) SRandInit(628685876).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079383
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal Engine/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.01-09.33.52:481][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.01-09.33.52:481][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.01-09.33.52:499][  0]LogInit: Computer: LAPTOP-2J9C5DVQ
+[2016.09.01-09.33.52:499][  0]LogInit: User: jeen1
+[2016.09.01-09.33.52:499][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.01-09.33.52:499][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.09.01-09.33.52:499][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2016.09.01-09.33.52:499][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.01-09.33.52:499][  0]LogMemory: Process Physical Memory: 190.73 MB used, 190.73 MB peak
+[2016.09.01-09.33.52:499][  0]LogMemory: Process Virtual Memory: 195.13 MB used, 195.13 MB peak
+[2016.09.01-09.33.52:499][  0]LogMemory: Physical Memory: 3710.95 MB used, 8019.78 MB total
+[2016.09.01-09.33.52:499][  0]LogMemory: Virtual Memory: 554.52 MB used, 134217728.00 MB total
+[2016.09.01-09.33.52:637][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.01-09.33.53:053][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.01-09.33.53:624][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.09.01-09.33.53:624][  0]LogD3D11RHI:       2018/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.01-09.33.53:633][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.09.01-09.33.53:633][  0]LogD3D11RHI:       128/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.09.01-09.33.53:634][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.01-09.33.53:634][  0]LogD3D11RHI:       0/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.01-09.33.53:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.01-09.33.53:639][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.01-09.33.53:639][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.09.01-09.33.53:639][  0]LogWindows: EnumDisplayDevices:
+[2016.09.01-09.33.53:639][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.09.01-09.33.53:639][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.09.01-09.33.53:639][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.09.01-09.33.53:639][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.09.01-09.33.53:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.09.01-09.33.53:639][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.09.01-09.33.53:639][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.09.01-09.33.53:639][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.01-09.33.54:126][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.01-09.33.54:158][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.09.01-09.33.54:159][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/jeen1/Desktop/OceanProject-4.12/Intermediate/Shaders/WorkingDirectory/1000/).
+[2016.09.01-09.33.54:159][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jeen1/AppData/Local/Temp/UnrealShaderWorkingDir/4E4267424A3D9A6A2638BB997D189FB9/'.
+[2016.09.01-09.33.54:159][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.01-09.33.55:088][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.01-09.33.55:098][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.01-09.33.55:107][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.01-09.33.55:116][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.01-09.33.55:126][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.01-09.33.55:134][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.01-09.33.55:143][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.01-09.33.55:150][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.01-09.33.55:157][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.01-09.33.55:166][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.01-09.33.55:173][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.01-09.33.55:188][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.01-09.33.55:188][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.01-09.33.55:189][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.01-09.33.55:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.01-09.33.55:217][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.01-09.33.55:226][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.01-09.33.55:234][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.01-09.33.55:242][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.01-09.33.55:242][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.01-09.33.55:323][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.01-09.33.55:393][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.01-09.33.55:394][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.01-09.33.55:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/jeen1/Desktop/OceanProject-4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.01-09.33.55:394][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.01-09.33.55:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/jeen1/Desktop/OceanProject-4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.01-09.33.55:394][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.01-09.33.55:410][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.01-09.33.55:424][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jeen1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.01-09.33.55:619][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.01-09.33.55:619][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.01-09.33.55:786][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.01-09.33.55:786][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.01-09.33.55:786][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.01-09.33.56:049][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.09.01-09.33.56:053][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/jeen1/Desktop/OceanProject-4.12/Plugins/OceanPlugin/Content/. Error: The system cannot find the file specified. (0x00000002)
+[2016.09.01-09.33.56:166][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.112659 seconds
+[2016.09.01-09.33.56:172][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.01-09.33.56:172][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.09.01-09.33.56:172][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.01-09.33.56:180][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.01-09.33.56:364][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.01-09.33.56:364][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.01-09.33.57:277][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.01-09.33.57:582][  0]SourceControl: Info Source control is disabled
+[2016.09.01-09.33.57:584][  0]SourceControl: Info Source control is disabled
+[2016.09.01-09.33.57:594][  0]SourceControl: Info Source control is disabled
+[2016.09.01-09.33.57:605][  0]SourceControl: Info Source control is disabled
+[2016.09.01-09.33.58:779][  0]LogEngine: Initializing Engine...
+[2016.09.01-09.33.58:781][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.01-09.33.58:782][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.01-09.33.58:919][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.01-09.33.58:923][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-09.33.58:953][  0]LogInit: FAudioDevice initialized.
+[2016.09.01-09.33.58:998][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.01-09.33.59:009][  0]LogInit: Texture streaming: Enabled
+[2016.09.01-09.33.59:148][  0]LogInit: Transaction tracking system initialized
+[2016.09.01-09.33.59:199][  0]BlueprintLog: New page: Editor Load
+[2016.09.01-09.33.59:270][  0]LocalizationService: Info Localization service is disabled
+[2016.09.01-09.33.59:335][  0]LogConsoleResponse:Display: 
+[2016.09.01-09.33.59:602][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.01-09.33.59:602][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.01-09.33.59:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/' took 0.02s
+[2016.09.01-09.33.59:706][  0]SourceControl: Info Source control is disabled
+[2016.09.01-09.33.59:706][  0]Cmd: MAP LOAD FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.01-09.33.59:710][  0]LightingResults: New page: Lighting Build
+[2016.09.01-09.33.59:713][  0]MapCheck: New page: Map Check
+[2016.09.01-09.33.59:713][  0]LightingResults: New page: Lighting Build
+[2016.09.01-09.34.01:831][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/TrueSkyPlugin/Content/trueSkyMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-09.34.05:272][  0]LogLinker:Warning: Asset 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/TrueSky/Moon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-09.34.05:293][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-09.34.05:293][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-09.34.05:293][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-09.34.05:293][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-09.34.05:294][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 5 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:294][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:294][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:299][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-09.34.05:299][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-09.34.05:300][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-09.34.05:300][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-09.34.05:300][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 5 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:300][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:300][  0]LogBlueprint:Warning: Compiler Warning [0013.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-09.34.05:768][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.05:847][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.05:857][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.06:072][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.06:127][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.06:135][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-09.34.06:204][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Flag/Flag_01.Flag_01'. Please resave the asset.
+[2016.09.01-09.34.06:886][  0]LogMaterial: Missing cached shader map for material M_Ocean_SSR, compiling. 
+[2016.09.01-09.34.06:892][  0]LogMaterial:Warning: Failed to compile Material Instance /Game/Ocean/Materials/M_Ocean_Versions/M_Inst_Ocean_SSR_Foam_Cubemap.M_Inst_Ocean_SSR_Foam_Cubemap with Base M_Ocean_SSR for platform PCD3D_SM5, Default Material will be used in game.
+[2016.09.01-09.34.06:892][  0]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Color, should be Linear Color for /Engine/MapTemplates/Sky/Desert_Outer_HDR.Desert_Outer_HDR
+[2016.09.01-09.34.06:940][  0]LogMaterial: Missing cached shader map for material M_Ocean, compiling. 
+[2016.09.01-09.34.06:945][  0]LogMaterial:Warning: Failed to compile Material Instance /Game/Ocean/Materials/M_Ocean_Versions/M_Inst_Ocean_Foam_Cubemap.M_Inst_Ocean_Foam_Cubemap with Base M_Ocean for platform PCD3D_SM5, Default Material will be used in game.
+[2016.09.01-09.34.06:945][  0]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Color, should be Linear Color for /Engine/MapTemplates/Sky/Desert_Outer_HDR.Desert_Outer_HDR
+[2016.09.01-09.34.08:700][  0]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-09.34.10:511][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.01-09.34.10:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.01-09.34.10:697][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 173.235ms to complete.
+[2016.09.01-09.34.10:697][  0]LogFileHelpers: Loading map 'dcSkyTestMap' took 10.990
+[2016.09.01-09.34.10:943][  0]LogCollectionManager: Loaded 0 collections in 0.002006 seconds
+[2016.09.01-09.34.11:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Collections/' took 0.01s
+[2016.09.01-09.34.11:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Developers/jeen1/Collections/' took 0.01s
+[2016.09.01-09.34.11:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Collections/' took 0.01s
+[2016.09.01-09.34.11:164][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.09.01-09.34.11:212][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2065 classes and 380 folders.
+[2016.09.01-09.34.11:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.01-09.34.11:264][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.01-09.34.11:283][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0020 seconds. Added 12 classes and 0 folders.
+[2016.09.01-09.34.11:339][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2016.09.01-09.34.12:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2016.09.01-09.34.12:900][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0059 seconds. Added 1 classes and 2 folders.
+[2016.09.01-09.34.13:494][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.01-09.34.13:625][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.01-09.34.13:672][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2016.09.01-09.34.13:672][  0]LogLoad: Full Startup: 22.29 seconds (BP compile: 1.45 seconds)
+[2016.09.01-09.34.13:672][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.01-09.34.13:672][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.01-09.34.13:691][  0]LogOcInput: OculusInput pre-init called
+[2016.09.01-09.34.13:868][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.09.01-09.34.14:369][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.09.01-09.34.14:492][  1]LogRenderer: Reallocating scene render targets to support 508x452 (Frame:2).
+[2016.09.01-09.34.14:492][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/' took 0.76s
+[2016.09.01-09.34.14:947][  2]TrueSky:Display: Simul version 4.1 build 382
+[2016.09.01-09.34.14:953][  2]TrueSky:Display: Loaded trueSKY dynamic library ../../../Engine//binaries/thirdparty/simul/Win64/TrueSkyPluginRender_MT.dll.
+[2016.09.01-09.34.15:930][  2]LogRenderer: Reallocating scene render targets to support 680x604 (Frame:2).
+[2016.09.01-09.34.16:557][  3]LogAssetRegistry: Asset discovery search completed in 20.5295 seconds
+[2016.09.01-09.34.16:557][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.09.01-09.34.16:557][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.09.01-09.34.20:396][156]Cmd: STAT FPS
+[2016.09.01-09.43.01:093][278]TrueSky:Display: Project directory: D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\Win64 
+[2016.09.01-09.43.01:272][278]TrueSky:Display:  QTDIR  
+[2016.09.01-09.43.01:682][278]TrueSky:Warning: Main.cpp(488): warning B0001: WARNING: errno!=0: Invalid argument 
+[2016.09.01-09.43.01:753][278]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\Qt5Gui.dll 
+[2016.09.01-09.43.01:773][278]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulClouds_MD.dll 
+[2016.09.01-09.43.01:789][278]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\clouds\environment.cpp(69): warning B0001: WARNING: errno!=0: Invalid argument 
+[2016.09.01-09.43.02:038][278]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SequencerQtWidgets_MD.dll 
+[2016.09.01-09.43.06:156][278]TrueSky:Display: File exists :/translations/translations/qt_ja.qm 
+[2016.09.01-09.43.06:156][278]TrueSky:Display: No file /qt_en.qm 
+[2016.09.01-09.43.06:156][278]TrueSky:Display: Failed to load qt_en 
+[2016.09.01-09.43.06:156][278]TrueSky:Display: Failed to install qtTranslator 
+[2016.09.01-09.43.06:157][278]TrueSky:Display: Failed to load SequencerQtWidgets_en.qm 
+[2016.09.01-09.43.06:157][278]TrueSky:Display: Failed to install sequencerQtWidgetsTranslator 
+[2016.09.01-09.43.06:157][278]TrueSky:Display: Failed to load SkySequencer_en 
+[2016.09.01-09.43.06:157][278]TrueSky:Display: Failed to install sequencerTranslator 
+[2016.09.01-09.43.06:315][278]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulCrossPlatform_MD.dll 
+[2016.09.01-09.53.29:210][454]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0106 seconds. Added 111 classes and 0 folders.
+[2016.09.01-09.59.19:961][ 96]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-09.59.19:961][ 96]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-10.00.08:132][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-10.00.12:868][755]LogSavePackage: Save=4527.26ms
+[2016.09.01-10.00.12:869][755]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto148B19DD44CA5F3CC0CAB35B2815B74B6.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto1.umap'
+[2016.09.01-10.00.12:871][755]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto1.umap
+[2016.09.01-10.00.12:999][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 5.598
+[2016.09.01-10.00.13:000][755]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.598
+[2016.09.01-10.03.05:285][567]LogRenderer: Reallocating scene render targets to support 680x608 (Frame:13656).
+[2016.09.01-10.03.06:364][567]LogRenderer: Reallocating scene render targets to support 680x640 (Frame:13658).
+[2016.09.01-10.03.06:433][567]LogRenderer: Reallocating scene render targets to support 680x644 (Frame:13659).
+[2016.09.01-10.03.12:725][644]LogRenderer: Reallocating scene render targets to support 752x676 (Frame:13730).
+[2016.09.01-10.03.12:749][644]LogRenderer: Reallocating scene render targets to support 1000x904 (Frame:13730).
+[2016.09.01-10.03.47:817][556]TrueSky:Display: Project directory: D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\Win64 
+[2016.09.01-10.03.49:781][556]TrueSky:Display: File exists :/translations/translations/qt_ja.qm 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: No file /qt_en.qm 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to load qt_en 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to install qtTranslator 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to load SequencerQtWidgets_en.qm 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to install sequencerQtWidgetsTranslator 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to load SkySequencer_en 
+[2016.09.01-10.03.49:782][556]TrueSky:Display: Failed to install sequencerTranslator 
+[2016.09.01-10.03.52:627][601]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulSky_MD.dll 
+[2016.09.01-10.04.39:071][809]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-10.06.38:034][474]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.06.38:141][474]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.06.38:142][474]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.06.38:252][474]LogBlueprint:Warning: Compiler Warning [1966.86] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 216 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.06.38:313][474]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.06.38:313][474]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.06.38:313][474]BlueprintEditorCompileResults:Warning: Warning [1966.86] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 216 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.08.55:928][314]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-10.08.55:928][314]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-10.12.01:183][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-10.12.01:276][350]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.12.01:276][350]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.12.01:277][350]LogBlueprint:Warning: Compiler Warning [2289.89] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 8 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.01:277][350]LogBlueprint:Warning: Compiler Warning [2289.89] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.01:277][350]LogBlueprint:Warning: Compiler Warning [2289.89] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.01:514][350]LogBlueprint:Warning: Compiler Warning [2290.13] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 236 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.01:535][350]LogBlueprint:Warning: Compiler Warning [2290.15] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 20 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.01:535][350]LogBlueprint:Warning: Compiler Warning [2290.15] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.04:457][350]LogSavePackage: Save=3194.08ms
+[2016.09.01-10.12.04:457][350]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto25175CD9B42E34A9479881488EB1426E7.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto2.umap'
+[2016.09.01-10.12.04:466][350]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto2.umap
+[2016.09.01-10.12.04:468][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 3.322
+[2016.09.01-10.12.04:468][350]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.322
+[2016.09.01-10.12.48:013][849]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.12.48:030][849]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.12.48:031][849]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.12.48:031][849]LogBlueprint:Warning: Compiler Warning Can't parse default value 'False' for  Timer . Property: timer.
+[2016.09.01-10.12.48:146][849]LogBlueprint:Warning: Compiler Warning [2336.76] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 132 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.12.48:146][849]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.12.48:146][849]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.12.48:146][849]BlueprintEditorCompileResults:Warning: Warning Can't parse default value 'False' for  Timer . Property: timer.
+[2016.09.01-10.12.48:146][849]BlueprintEditorCompileResults:Warning: Warning [2336.76] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 132 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.13.02:069][676]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.13.02:083][676]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.13.02:083][676]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.13.02:192][676]LogBlueprint:Warning: Compiler Warning [2350.80] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 123 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.13.02:192][676]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.13.02:192][676]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.13.02:192][676]BlueprintEditorCompileResults:Warning: Warning [2350.80] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 123 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.13.04:809][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.13.04:809][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.13.04:878][787]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:13:04 PM)
+[2016.09.01-10.13.04:878][787]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.13.05:296][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.417756s)
+[2016.09.01-10.13.05:297][787]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.13.05:298][787]LogPlayLevel: PIE: World Init took: (0.001745s)
+[2016.09.01-10.13.05:313][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.435030s)
+[2016.09.01-10.13.05:376][787]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.13.05:384][787]LogInit: FAudioDevice initialized.
+[2016.09.01-10.13.05:784][787]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.13.06:241][787]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.13.06
+[2016.09.01-10.13.06:464][787]LogWorld: Bringing up level for play took: 0.305936
+[2016.09.01-10.13.06:556][787]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.13.06:727][787]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0057 seconds. Added 11 classes and 0 folders.
+[2016.09.01-10.13.07:891][787]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.839
+[2016.09.01-10.13.07:972][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.13.23:037][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.13.23:785][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.14.08:261][699]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.14.08:277][699]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.14.08:277][699]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.14.08:389][699]LogBlueprint:Warning: Compiler Warning [2417.00] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 128 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.14.08:389][699]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.14.08:389][699]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.14.08:389][699]BlueprintEditorCompileResults:Warning: Warning [2417.00] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 128 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.14.10:239][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.14.10:239][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.14.10:239][779]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:14:10 PM)
+[2016.09.01-10.14.10:239][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.14.10:527][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.287688s)
+[2016.09.01-10.14.10:528][779]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.14.10:529][779]LogPlayLevel: PIE: World Init took: (0.001372s)
+[2016.09.01-10.14.10:529][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.289564s)
+[2016.09.01-10.14.10:554][779]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.14.10:560][779]LogInit: FAudioDevice initialized.
+[2016.09.01-10.14.10:606][779]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.14.10:639][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.14.10
+[2016.09.01-10.14.10:641][779]LogWorld: Bringing up level for play took: 0.032594
+[2016.09.01-10.14.10:641][779]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.14.11:347][779]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.296
+[2016.09.01-10.14.11:362][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.14.26:726][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.14.26:833][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.15:170][750]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.15.15:187][750]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.15:187][750]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.15:299][750]LogBlueprint:Warning: Compiler Warning [2483.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 129 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.15:300][750]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.15:300][750]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.15:300][750]BlueprintEditorCompileResults:Warning: Warning [2483.91] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 129 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.18:512][943]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.15.18:530][943]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.18:531][943]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.19:693][943]LogBlueprint:Warning: Compiler Warning [2488.31] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 1,181 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.19:694][943]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.19:694][943]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.19:694][943]BlueprintEditorCompileResults:Warning: Warning [2488.31] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 1,181 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.20:400][985]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.15.20:417][985]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.20:418][985]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.20:526][985]LogBlueprint:Warning: Compiler Warning [2489.14] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 125 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.20:526][985]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.20:526][985]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.20:526][985]BlueprintEditorCompileResults:Warning: Warning [2489.14] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 125 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.23:704][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.23:704][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.15.23:704][114]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:15:23 PM)
+[2016.09.01-10.15.23:704][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.15.24:140][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.435173s)
+[2016.09.01-10.15.24:141][114]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.15.24:141][114]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2016.09.01-10.15.24:141][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.436784s)
+[2016.09.01-10.15.24:178][114]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.15.24:188][114]LogInit: FAudioDevice initialized.
+[2016.09.01-10.15.24:250][114]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.15.24:301][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.15.24
+[2016.09.01-10.15.24:304][114]LogWorld: Bringing up level for play took: 0.052752
+[2016.09.01-10.15.24:305][114]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.15.25:138][114]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.087
+[2016.09.01-10.15.25:150][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.33:328][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.33:414][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.39:568][683]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.15.39:582][683]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.39:583][683]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.39:691][683]LogBlueprint:Warning: Compiler Warning [2508.30] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 122 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.39:691][683]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.39:691][683]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.39:691][683]BlueprintEditorCompileResults:Warning: Warning [2508.30] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 122 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.41:344][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.41:344][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.15.41:345][750]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:15:41 PM)
+[2016.09.01-10.15.41:345][750]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.15.41:619][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274572s)
+[2016.09.01-10.15.41:621][750]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.15.41:621][750]LogPlayLevel: PIE: World Init took: (0.001327s)
+[2016.09.01-10.15.41:621][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.276363s)
+[2016.09.01-10.15.41:645][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.15.41:651][750]LogInit: FAudioDevice initialized.
+[2016.09.01-10.15.41:699][750]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.15.41:734][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.15.41
+[2016.09.01-10.15.41:736][750]LogWorld: Bringing up level for play took: 0.034972
+[2016.09.01-10.15.41:737][750]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.15.42:448][750]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 1.397
+[2016.09.01-10.15.42:460][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.46:613][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.46:680][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.55:962][334]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.15.55:976][334]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.55:977][334]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.56:086][334]LogBlueprint:Warning: Compiler Warning [2524.70] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 124 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.56:087][334]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.15.56:087][334]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.15.56:087][334]BlueprintEditorCompileResults:Warning: Warning [2524.70] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 124 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.15.58:281][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.15.58:281][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.15.58:282][429]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:15:58 PM)
+[2016.09.01-10.15.58:282][429]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.15.58:604][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.322402s)
+[2016.09.01-10.15.58:605][429]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.15.58:606][429]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2016.09.01-10.15.58:606][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.323969s)
+[2016.09.01-10.15.58:633][429]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.15.58:640][429]LogInit: FAudioDevice initialized.
+[2016.09.01-10.15.58:693][429]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.15.58:726][429]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.15.58
+[2016.09.01-10.15.58:728][429]LogWorld: Bringing up level for play took: 0.032713
+[2016.09.01-10.15.58:728][429]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.15.59:434][429]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.383
+[2016.09.01-10.15.59:446][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.02:232][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.02:290][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.09:504][914]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.16.09:517][914]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.16.09:517][914]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.16.09:629][914]LogBlueprint:Warning: Compiler Warning [2538.24] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 125 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.16.09:629][914]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.16.09:629][914]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.16.09:629][914]BlueprintEditorCompileResults:Warning: Warning [2538.24] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 125 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.16.23:261][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.23:261][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.16.23:261][687]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:16:23 PM)
+[2016.09.01-10.16.23:261][687]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.16.23:548][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.286657s)
+[2016.09.01-10.16.23:549][687]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.16.23:549][687]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2016.09.01-10.16.23:549][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.288408s)
+[2016.09.01-10.16.23:574][687]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.16.23:580][687]LogInit: FAudioDevice initialized.
+[2016.09.01-10.16.23:629][687]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.16.23:664][687]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.16.23
+[2016.09.01-10.16.23:666][687]LogWorld: Bringing up level for play took: 0.034826
+[2016.09.01-10.16.23:666][687]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.16.24:366][687]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 1.315
+[2016.09.01-10.16.24:378][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.29:244][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.16.29:303][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.22:463][648]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.17.22:481][648]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.17.22:482][648]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.17.22:595][648]LogBlueprint:Warning: Compiler Warning [2611.21] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 131 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.22:595][648]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.17.22:595][648]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.17.22:595][648]BlueprintEditorCompileResults:Warning: Warning [2611.21] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 131 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.24:558][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.24:559][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.17.24:559][734]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:17:24 PM)
+[2016.09.01-10.17.24:559][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.17.24:838][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.279403s)
+[2016.09.01-10.17.24:840][734]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.17.24:840][734]LogPlayLevel: PIE: World Init took: (0.001765s)
+[2016.09.01-10.17.24:841][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.281711s)
+[2016.09.01-10.17.24:868][734]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.17.24:874][734]LogInit: FAudioDevice initialized.
+[2016.09.01-10.17.24:926][734]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.17.24:960][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.17.24
+[2016.09.01-10.17.24:962][734]LogWorld: Bringing up level for play took: 0.034339
+[2016.09.01-10.17.24:962][734]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.17.25:657][734]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.605
+[2016.09.01-10.17.25:659][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.31:413][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.31:497][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.55:364][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.55:364][129]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-10.17.55:373][129]LogPlayLevel: [PlayLevel] Compiling dcSkyTestMap before play...
+[2016.09.01-10.17.55:387][129]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.17.55:388][129]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.17.55:388][129]LogBlueprint:Warning: Compiler Warning [2644.00] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 9 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:389][129]LogBlueprint:Warning: Compiler Warning [2644.00] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:389][129]LogBlueprint:Warning: Compiler Warning [2644.00] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:467][129]LogBlueprint:Warning: Compiler Warning [2644.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 78 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:469][129]LogBlueprint:Warning: Compiler Warning [2644.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 1 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:469][129]LogBlueprint:Warning: Compiler Warning [2644.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.17.55:469][129]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2016.09.01-10.17.55:496][129]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:17:55 PM)
+[2016.09.01-10.17.55:496][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.17.55:787][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.291403s)
+[2016.09.01-10.17.55:788][129]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.17.55:788][129]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2016.09.01-10.17.55:789][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.293208s)
+[2016.09.01-10.17.55:817][129]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.17.55:825][129]LogInit: FAudioDevice initialized.
+[2016.09.01-10.17.55:870][129]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.17.55:908][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.17.55
+[2016.09.01-10.17.55:911][129]LogWorld: Bringing up level for play took: 0.039469
+[2016.09.01-10.17.55:912][129]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.17.56:611][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 1.56
+[2016.09.01-10.17.56:613][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.58:316][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.17.58:402][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.18.16:015][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.18.16:016][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.18.16:016][627]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:18:16 PM)
+[2016.09.01-10.18.16:016][627]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.18.16:298][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.282051s)
+[2016.09.01-10.18.16:300][627]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.18.16:300][627]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2016.09.01-10.18.16:300][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.283861s)
+[2016.09.01-10.18.16:419][627]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.18.16:426][627]LogInit: FAudioDevice initialized.
+[2016.09.01-10.18.16:480][627]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.18.16:514][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.18.16
+[2016.09.01-10.18.16:516][627]LogWorld: Bringing up level for play took: 0.033764
+[2016.09.01-10.18.16:516][627]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.18.17:194][627]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.143
+[2016.09.01-10.18.17:196][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.19.40:417][861]LogRenderer: Reallocating scene render targets to support 1372x904 (Frame:25189).
+[2016.09.01-10.19.40:458][861]LogRenderer: Reallocating scene render targets to support 1828x1028 (Frame:25189).
+[2016.09.01-10.19.41:208][862]LogRenderer: Reallocating scene render targets to support 1920x1040 (Frame:25191).
+[2016.09.01-10.19.48:280][916]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-10.20.11:664][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-10.20.17:329][433]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-10.20.21:607][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.20.21:683][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.20.46:345][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.20.46:345][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.20.46:345][395]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:20:46 PM)
+[2016.09.01-10.20.46:345][395]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.20.46:678][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.332143s)
+[2016.09.01-10.20.46:679][395]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.20.46:679][395]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2016.09.01-10.20.46:680][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.334114s)
+[2016.09.01-10.20.46:704][395]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.20.46:711][395]LogInit: FAudioDevice initialized.
+[2016.09.01-10.20.46:760][395]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.20.46:793][395]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.20.46
+[2016.09.01-10.20.46:794][395]LogWorld: Bringing up level for play took: 0.032875
+[2016.09.01-10.20.46:795][395]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.20.47:478][395]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.427
+[2016.09.01-10.20.47:485][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.20.51:173][433]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-10.20.51:683][434]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-10.21.12:770][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.21.12:831][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.02:935][522]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.22.02:964][522]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.22.02:965][522]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.22.03:112][522]LogBlueprint:Warning: Compiler Warning [2891.72] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 176 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.22.03:112][522]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.22.03:112][522]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.22.03:112][522]BlueprintEditorCompileResults:Warning: Warning [2891.72] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 176 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.22.04:648][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.04:649][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.22.04:649][589]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:22:04 PM)
+[2016.09.01-10.22.04:649][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.22.05:007][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357962s)
+[2016.09.01-10.22.05:009][589]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.22.05:009][589]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2016.09.01-10.22.05:010][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.360598s)
+[2016.09.01-10.22.05:035][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.22.05:043][589]LogInit: FAudioDevice initialized.
+[2016.09.01-10.22.05:089][589]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.22.05:125][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.22.05
+[2016.09.01-10.22.05:127][589]LogWorld: Bringing up level for play took: 0.035682
+[2016.09.01-10.22.05:127][589]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.22.05:236][589]LogBlueprintUserMessages: [dcSkyTestMap_C_0] Hello
+[2016.09.01-10.22.05:996][589]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.945
+[2016.09.01-10.22.06:004][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.07:753][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.07:802][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.37:043][288]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.22.37:062][288]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.22.37:063][288]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.22.37:171][288]LogBlueprint:Warning: Compiler Warning [2925.78] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 127 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.22.37:171][288]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.22.37:171][288]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.22.37:171][288]BlueprintEditorCompileResults:Warning: Warning [2925.78] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 127 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.22.38:850][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.22.38:850][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.22.38:850][357]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:22:38 PM)
+[2016.09.01-10.22.38:851][357]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.22.39:128][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.277689s)
+[2016.09.01-10.22.39:129][357]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.22.39:130][357]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2016.09.01-10.22.39:130][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.279736s)
+[2016.09.01-10.22.39:155][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.22.39:161][357]LogInit: FAudioDevice initialized.
+[2016.09.01-10.22.39:210][357]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.22.39:245][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.22.39
+[2016.09.01-10.22.39:247][357]LogWorld: Bringing up level for play took: 0.034167
+[2016.09.01-10.22.39:247][357]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.22.39:921][357]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.87
+[2016.09.01-10.22.39:929][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.24.41:726][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.24.41:849][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.26.43:766][613]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-10.26.43:792][613]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.26.43:792][613]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.26.43:910][613]LogBlueprint:Warning: Compiler Warning [3172.52] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 143 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.26.43:910][613]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.26.43:910][613]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.26.43:910][613]BlueprintEditorCompileResults:Warning: Warning [3172.52] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 143 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.26.49:947][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.26.49:947][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.26.49:947][974]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:26:49 PM)
+[2016.09.01-10.26.49:947][974]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.26.50:249][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.301565s)
+[2016.09.01-10.26.50:250][974]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.26.50:251][974]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2016.09.01-10.26.50:251][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.303844s)
+[2016.09.01-10.26.50:276][974]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.26.50:283][974]LogInit: FAudioDevice initialized.
+[2016.09.01-10.26.50:415][974]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.26.50:464][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.26.50
+[2016.09.01-10.26.50:466][974]LogWorld: Bringing up level for play took: 0.048648
+[2016.09.01-10.26.50:467][974]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.26.51:169][974]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.118
+[2016.09.01-10.26.51:177][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.28.03:723][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.28.03:801][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.28.43:916][891]LogLinker:Warning: Asset 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/TrueSky/MilkyWay.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-10.29.22:206][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.29.22:207][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-10.29.22:207][ 54]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 1:29:22 PM)
+[2016.09.01-10.29.22:207][ 54]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-10.29.22:639][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.432112s)
+[2016.09.01-10.29.22:641][ 54]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-10.29.22:641][ 54]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2016.09.01-10.29.22:642][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.434595s)
+[2016.09.01-10.29.22:668][ 54]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-10.29.22:674][ 54]LogInit: FAudioDevice initialized.
+[2016.09.01-10.29.22:724][ 54]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-10.29.22:759][ 54]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-12.29.22
+[2016.09.01-10.29.22:761][ 54]LogWorld: Bringing up level for play took: 0.035081
+[2016.09.01-10.29.22:762][ 54]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-10.29.23:457][ 54]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.406
+[2016.09.01-10.29.23:467][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.31.47:611][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.31.47:699][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-10.32.12:233][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-10.32.12:424][772]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-10.32.12:425][772]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-10.32.12:429][772]LogBlueprint:Warning: Compiler Warning [3501.04] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 26 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.12:429][772]LogBlueprint:Warning: Compiler Warning [3501.04] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.12:429][772]LogBlueprint:Warning: Compiler Warning [3501.04] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.12:598][772]LogBlueprint:Warning: Compiler Warning [3501.21] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 169 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.12:600][772]LogBlueprint:Warning: Compiler Warning [3501.21] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 1 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.12:600][772]LogBlueprint:Warning: Compiler Warning [3501.21] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-10.32.15:880][772]LogSavePackage: Save=3494.65ms
+[2016.09.01-10.32.15:880][772]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto3EF0952A64BE51BF89735FBB8767B1CA2.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto3.umap'
+[2016.09.01-10.32.15:888][772]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto3.umap
+[2016.09.01-10.32.15:891][772]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 3.718
+[2016.09.01-10.32.15:891][772]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.718
+[2016.09.01-10.32.15:896][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewTrueSkySequenceAsset] ([1] browsable assets)...
+[2016.09.01-10.32.15:896][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewTrueSkySequenceAsset]
+[2016.09.01-10.32.15:896][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewTrueSkySequenceAsset" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/NewTrueSkySequenceAsset_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.09.01-10.32.16:039][772]LogSavePackage: Save=135.29ms
+[2016.09.01-10.32.16:039][772]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/NewTrueSkySequenceAsset_Auto356FC03F14F075CF234E7008F83D41C7E.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/NewTrueSkySequenceAsset_Auto3.uasset'
+[2016.09.01-10.32.16:040][772]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/NewTrueSkySequenceAsset_Auto3.uasset
+[2016.09.01-10.32.16:041][772]LogFileHelpers: Auto-saving content packages took 0.147
+[2016.09.01-11.45.18:616][996]LogEditorViewport: Clicking on Actor (context menu): Landscape (LandscapeIslands)
+[2016.09.01-11.56.39:245][188]LogEditorViewport: Clicking on Actor (context menu): BP_Ocean_C (BP_Ocean)
+[2016.09.01-11.56.42:633][283]LogEditorViewport: Clicking Background
+[2016.09.01-11.56.54:165][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-11.56.54:166][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-11.56.54:167][608]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 2:56:54 PM)
+[2016.09.01-11.56.54:169][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-11.56.55:140][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.971074s)
+[2016.09.01-11.56.55:144][608]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-11.56.55:145][608]LogPlayLevel: PIE: World Init took: (0.004365s)
+[2016.09.01-11.56.55:146][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.976992s)
+[2016.09.01-11.56.55:194][608]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-11.56.55:298][608]LogInit: FAudioDevice initialized.
+[2016.09.01-11.56.55:349][608]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-11.56.55:388][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-13.56.55
+[2016.09.01-11.56.55:390][608]LogWorld: Bringing up level for play took: 0.039096
+[2016.09.01-11.56.55:392][608]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-11.56.56:189][608]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.198
+[2016.09.01-11.56.56:193][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-11.56.59:754][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-11.56.59:805][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-11.57.04:651][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.01-11.57.05:504][827]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-11.57.05:506][827]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-11.57.05:531][827]LogBlueprint:Warning: Compiler Warning [8591.20] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 58 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.05:531][827]LogBlueprint:Warning: Compiler Warning [8591.20] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.05:531][827]LogBlueprint:Warning: Compiler Warning [8591.20] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.05:660][827]LogBlueprint:Warning: Compiler Warning [8591.33] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 128 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.05:668][827]LogBlueprint:Warning: Compiler Warning [8591.34] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 8 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.05:669][827]LogBlueprint:Warning: Compiler Warning [8591.34] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-11.57.08:945][827]LogSavePackage: Save=3614.17ms
+[2016.09.01-11.57.08:945][827]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap6BA4D30D45FF721B560003BD144A00B7.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap'
+[2016.09.01-11.57.09:007][827]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap
+[2016.09.01-11.57.09:294][827]LogFileHelpers: Saving map 'dcSkyTestMap' took 5.102
+[2016.09.01-11.57.09:296][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewTrueSkySequenceAsset" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset" SILENT=true
+[2016.09.01-11.57.09:500][827]LogSavePackage: Save=197.88ms
+[2016.09.01-11.57.09:500][827]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/NewTrueSkySequenceAsset957CB12D4FE62669E23D25BBFBFE1204.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset'
+[2016.09.01-11.57.09:503][827]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset
+[2016.09.01-12.43.57:160][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-12.43.57:835][ 49]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.43.57:836][ 49]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.43.57:854][ 49]LogBlueprint:Warning: Compiler Warning [1403.53] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 47 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.43.57:855][ 49]LogBlueprint:Warning: Compiler Warning [1403.53] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.43.57:855][ 49]LogBlueprint:Warning: Compiler Warning [1403.53] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.43.57:948][ 49]LogBlueprint:Warning: Compiler Warning [1403.62] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 92 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.43.57:951][ 49]LogBlueprint:Warning: Compiler Warning [1403.62] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 2 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.43.57:951][ 49]LogBlueprint:Warning: Compiler Warning [1403.62] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.44.01:012][ 49]LogSavePackage: Save=3314.50ms
+[2016.09.01-12.44.01:012][ 49]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto4D7E2676B447AA6E8685C35A200427FF3.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto4.umap'
+[2016.09.01-12.44.01:015][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto4.umap
+[2016.09.01-12.44.01:017][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 4.296
+[2016.09.01-12.44.01:017][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.296
+[2016.09.01-12.44.02:676][147]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-12.44.02:813][147]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.44.02:814][147]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.44.02:930][147]LogBlueprint:Warning: Compiler Warning [1408.60] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 252 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.44.02:930][147]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.44.02:930][147]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.44.02:930][147]BlueprintEditorCompileResults:Warning: Warning [1408.60] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 252 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.44.22:448][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.44.22:449][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.44.22:449][244]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:44:22 PM)
+[2016.09.01-12.44.22:449][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.44.22:753][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.304137s)
+[2016.09.01-12.44.22:755][244]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.44.22:756][244]LogPlayLevel: PIE: World Init took: (0.001992s)
+[2016.09.01-12.44.22:756][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.306517s)
+[2016.09.01-12.44.22:780][244]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.44.22:787][244]LogInit: FAudioDevice initialized.
+[2016.09.01-12.44.22:836][244]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.44.22:872][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.44.22
+[2016.09.01-12.44.22:874][244]LogWorld: Bringing up level for play took: 0.035753
+[2016.09.01-12.44.22:874][244]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.44.23:604][244]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 1.614
+[2016.09.01-12.44.23:606][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.44.44:780][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.44.44:833][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.44.54:619][234]BlueprintLog: New page: Compile dcSkyTestMap
+[2016.09.01-12.44.54:764][234]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.44.54:764][234]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.44.54:883][234]LogBlueprint:Warning: Compiler Warning [1460.56] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 264 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.44.54:883][234]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.44.54:883][234]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.44.54:883][234]BlueprintEditorCompileResults:Warning: Warning [1460.56] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 264 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.44.57:375][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.44.57:375][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.44.57:375][382]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:44:57 PM)
+[2016.09.01-12.44.57:375][382]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.44.57:658][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.282626s)
+[2016.09.01-12.44.57:659][382]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.44.57:659][382]LogPlayLevel: PIE: World Init took: (0.001382s)
+[2016.09.01-12.44.57:660][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.284550s)
+[2016.09.01-12.44.57:683][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.44.57:689][382]LogInit: FAudioDevice initialized.
+[2016.09.01-12.44.57:773][382]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.44.57:809][382]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.44.57
+[2016.09.01-12.44.57:811][382]LogWorld: Bringing up level for play took: 0.035796
+[2016.09.01-12.44.57:811][382]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.44.58:507][382]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.517
+[2016.09.01-12.44.58:510][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.45.17:657][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.45.17:748][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.45.45:165][495]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor)
+[2016.09.01-12.45.47:246][523]Cmd: DELETE
+[2016.09.01-12.45.47:246][523]Cmd: ACTOR DELETE
+[2016.09.01-12.45.47:349][523]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.45.47:565][523]LogEditorActor: Deleted 1 Actors (0.237 secs)
+[2016.09.01-12.45.48:079][533]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Fishboat)
+[2016.09.01-12.45.49:136][537]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 25815 times. 
+[2016.09.01-12.45.49:136][537]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 25815 times. 
+[2016.09.01-12.45.49:681][544]Cmd: DELETE
+[2016.09.01-12.45.49:681][544]Cmd: ACTOR DELETE
+[2016.09.01-12.45.51:112][544]LogEditorActor: Deleted Actor: BP_Boat_C
+[2016.09.01-12.45.51:301][544]LogEditorActor: Deleted 1 Actors (1.620 secs)
+[2016.09.01-12.45.58:067][701]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon5)
+[2016.09.01-12.45.58:477][710]Cmd: DELETE
+[2016.09.01-12.45.58:477][710]Cmd: ACTOR DELETE
+[2016.09.01-12.46.00:241][710]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.00:264][710]LogEditorActor: Deleted 1 Actors (1.787 secs)
+[2016.09.01-12.46.00:854][721]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon2)
+[2016.09.01-12.46.01:125][726]Cmd: DELETE
+[2016.09.01-12.46.01:125][726]Cmd: ACTOR DELETE
+[2016.09.01-12.46.01:812][726]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.01:837][726]LogEditorActor: Deleted 1 Actors (0.712 secs)
+[2016.09.01-12.46.02:509][742]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon)
+[2016.09.01-12.46.02:823][750]Cmd: DELETE
+[2016.09.01-12.46.02:823][750]Cmd: ACTOR DELETE
+[2016.09.01-12.46.03:608][750]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.03:632][750]LogEditorActor: Deleted 1 Actors (0.809 secs)
+[2016.09.01-12.46.06:347][811]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon4)
+[2016.09.01-12.46.07:097][829]Cmd: DELETE
+[2016.09.01-12.46.07:097][829]Cmd: ACTOR DELETE
+[2016.09.01-12.46.08:117][829]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.08:159][829]LogEditorActor: Deleted 1 Actors (1.062 secs)
+[2016.09.01-12.46.08:815][847]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon6)
+[2016.09.01-12.46.09:280][856]Cmd: DELETE
+[2016.09.01-12.46.09:281][856]Cmd: ACTOR DELETE
+[2016.09.01-12.46.10:165][856]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.10:212][856]LogEditorActor: Deleted 1 Actors (0.932 secs)
+[2016.09.01-12.46.10:727][868]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon7)
+[2016.09.01-12.46.11:100][877]Cmd: DELETE
+[2016.09.01-12.46.11:100][877]Cmd: ACTOR DELETE
+[2016.09.01-12.46.12:128][877]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.12:165][877]LogEditorActor: Deleted 1 Actors (1.065 secs)
+[2016.09.01-12.46.12:639][888]LogEditorViewport: Clicking on Actor (LMB): BP_Cannon_C (BP_Cannon3)
+[2016.09.01-12.46.12:877][892]Cmd: DELETE
+[2016.09.01-12.46.12:877][892]Cmd: ACTOR DELETE
+[2016.09.01-12.46.13:508][892]LogEditorActor: Deleted Actor: BP_Cannon_C
+[2016.09.01-12.46.13:533][892]LogEditorActor: Deleted 1 Actors (0.656 secs)
+[2016.09.01-12.46.26:662][177]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor3)
+[2016.09.01-12.46.27:665][196]Cmd: DELETE
+[2016.09.01-12.46.27:665][196]Cmd: ACTOR DELETE
+[2016.09.01-12.46.28:830][196]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.28:950][196]LogEditorActor: Deleted 1 Actors (1.285 secs)
+[2016.09.01-12.46.29:426][209]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor2)
+[2016.09.01-12.46.29:998][219]Cmd: DELETE
+[2016.09.01-12.46.29:998][219]Cmd: ACTOR DELETE
+[2016.09.01-12.46.30:764][219]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.30:787][219]LogEditorActor: Deleted 1 Actors (0.789 secs)
+[2016.09.01-12.46.31:424][232]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor8)
+[2016.09.01-12.46.31:569][233]Cmd: DELETE
+[2016.09.01-12.46.31:569][233]Cmd: ACTOR DELETE
+[2016.09.01-12.46.32:309][233]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.32:439][233]LogEditorActor: Deleted 1 Actors (0.870 secs)
+[2016.09.01-12.46.32:916][245]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor6)
+[2016.09.01-12.46.33:234][252]Cmd: DELETE
+[2016.09.01-12.46.33:234][252]Cmd: ACTOR DELETE
+[2016.09.01-12.46.34:082][252]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.34:202][252]LogEditorActor: Deleted 1 Actors (0.967 secs)
+[2016.09.01-12.46.34:672][265]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor5)
+[2016.09.01-12.46.34:941][269]Cmd: DELETE
+[2016.09.01-12.46.34:941][269]Cmd: ACTOR DELETE
+[2016.09.01-12.46.35:691][269]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.35:716][269]LogEditorActor: Deleted 1 Actors (0.775 secs)
+[2016.09.01-12.46.36:456][288]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor4)
+[2016.09.01-12.46.36:782][293]Cmd: DELETE
+[2016.09.01-12.46.36:782][293]Cmd: ACTOR DELETE
+[2016.09.01-12.46.37:603][293]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.37:628][293]LogEditorActor: Deleted 1 Actors (0.845 secs)
+[2016.09.01-12.46.39:039][327]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor7)
+[2016.09.01-12.46.42:785][411]Cmd: DELETE
+[2016.09.01-12.46.42:785][411]Cmd: ACTOR DELETE
+[2016.09.01-12.46.44:092][411]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.44:116][411]LogEditorActor: Deleted 1 Actors (1.332 secs)
+[2016.09.01-12.46.47:508][482]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.46.48:293][499]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor18)
+[2016.09.01-12.46.48:986][511]Cmd: DELETE
+[2016.09.01-12.46.48:986][511]Cmd: ACTOR DELETE
+[2016.09.01-12.46.49:869][511]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.49:896][511]LogEditorActor: Deleted 1 Actors (0.910 secs)
+[2016.09.01-12.46.50:695][532]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor17)
+[2016.09.01-12.46.51:276][544]Cmd: DELETE
+[2016.09.01-12.46.51:277][544]Cmd: ACTOR DELETE
+[2016.09.01-12.46.52:132][544]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.52:162][544]LogEditorActor: Deleted 1 Actors (0.885 secs)
+[2016.09.01-12.46.52:915][564]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.46.54:055][584]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.46.54:837][596]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor16)
+[2016.09.01-12.46.55:773][617]Cmd: DELETE
+[2016.09.01-12.46.55:773][617]Cmd: ACTOR DELETE
+[2016.09.01-12.46.56:447][617]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.56:474][617]LogEditorActor: Deleted 1 Actors (0.702 secs)
+[2016.09.01-12.46.56:974][631]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor19)
+[2016.09.01-12.46.57:603][644]Cmd: DELETE
+[2016.09.01-12.46.57:603][644]Cmd: ACTOR DELETE
+[2016.09.01-12.46.58:408][644]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.46.58:436][644]LogEditorActor: Deleted 1 Actors (0.833 secs)
+[2016.09.01-12.47.01:848][724]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.47.02:732][742]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor20)
+[2016.09.01-12.47.03:314][753]Cmd: DELETE
+[2016.09.01-12.47.03:314][753]Cmd: ACTOR DELETE
+[2016.09.01-12.47.04:128][753]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.47.04:179][753]LogEditorActor: Deleted 1 Actors (0.865 secs)
+[2016.09.01-12.47.05:282][781]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.47.06:026][793]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.47.08:491][841]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor23)
+[2016.09.01-12.47.09:030][851]Cmd: DELETE
+[2016.09.01-12.47.09:030][851]Cmd: ACTOR DELETE
+[2016.09.01-12.47.09:842][851]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.47.09:870][851]LogEditorActor: Deleted 1 Actors (0.841 secs)
+[2016.09.01-12.47.10:633][868]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor21)
+[2016.09.01-12.47.11:264][882]Cmd: DELETE
+[2016.09.01-12.47.11:264][882]Cmd: ACTOR DELETE
+[2016.09.01-12.47.12:122][882]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.47.12:148][882]LogEditorActor: Deleted 1 Actors (0.884 secs)
+[2016.09.01-12.47.13:729][917]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.47.14:344][928]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor24)
+[2016.09.01-12.47.14:977][940]Cmd: DELETE
+[2016.09.01-12.47.14:977][940]Cmd: ACTOR DELETE
+[2016.09.01-12.47.15:651][940]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.47.15:677][940]LogEditorActor: Deleted 1 Actors (0.700 secs)
+[2016.09.01-12.47.16:849][969]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor22)
+[2016.09.01-12.47.17:516][983]Cmd: DELETE
+[2016.09.01-12.47.17:516][983]Cmd: ACTOR DELETE
+[2016.09.01-12.47.18:205][983]LogEditorActor: Deleted Actor: BP_BuoyantActor_C
+[2016.09.01-12.47.18:233][983]LogEditorActor: Deleted 1 Actors (0.716 secs)
+[2016.09.01-12.47.27:759][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat2)
+[2016.09.01-12.47.29:437][219]Cmd: DELETE
+[2016.09.01-12.47.29:437][219]Cmd: ACTOR DELETE
+[2016.09.01-12.47.29:438][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.47.29:483][219]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2016.09.01-12.47.30:345][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
+[2016.09.01-12.47.30:688][248]Cmd: DELETE
+[2016.09.01-12.47.30:688][248]Cmd: ACTOR DELETE
+[2016.09.01-12.47.30:689][248]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.47.30:741][248]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2016.09.01-12.47.31:455][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.09.01-12.47.31:793][269]Cmd: DELETE
+[2016.09.01-12.47.31:793][269]Cmd: ACTOR DELETE
+[2016.09.01-12.47.31:794][269]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.47.31:860][269]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2016.09.01-12.47.36:530][373]LogEditorViewport: Clicking on Actor (LMB): CableActor (CableActor1)
+[2016.09.01-12.47.41:555][493]Cmd: DELETE
+[2016.09.01-12.47.41:555][493]Cmd: ACTOR DELETE
+[2016.09.01-12.47.41:557][493]LogEditorActor: Deleted Actor: CableActor
+[2016.09.01-12.47.41:610][493]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2016.09.01-12.47.42:893][525]LogEditorViewport: Clicking on Actor (LMB): CableActor (CableActor3)
+[2016.09.01-12.47.43:381][535]Cmd: DELETE
+[2016.09.01-12.47.43:381][535]Cmd: ACTOR DELETE
+[2016.09.01-12.47.43:382][535]LogEditorActor: Deleted Actor: CableActor
+[2016.09.01-12.47.43:439][535]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2016.09.01-12.47.46:294][597]LogEditorViewport: Clicking on Actor (LMB): BP_Compass_C (BP_Compass)
+[2016.09.01-12.47.47:948][639]Cmd: DELETE
+[2016.09.01-12.47.47:948][639]Cmd: ACTOR DELETE
+[2016.09.01-12.47.47:950][639]LogEditorActor: Deleted Actor: BP_Compass_C
+[2016.09.01-12.47.48:093][639]LogEditorActor: Deleted 1 Actors (0.145 secs)
+[2016.09.01-12.47.57:672][848]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Fishboat2)
+[2016.09.01-12.47.59:919][872]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 445350 times. 
+[2016.09.01-12.47.59:919][872]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 445350 times. 
+[2016.09.01-12.48.48:169][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.48.48:169][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.48.48:170][854]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:48:48 PM)
+[2016.09.01-12.48.48:170][854]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.48.48:627][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.457184s)
+[2016.09.01-12.48.48:629][854]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.48.48:629][854]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2016.09.01-12.48.48:629][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.459525s)
+[2016.09.01-12.48.48:819][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.48.48:828][854]LogInit: FAudioDevice initialized.
+[2016.09.01-12.48.48:902][854]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.48.48:931][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.48.48
+[2016.09.01-12.48.48:933][854]LogWorld: Bringing up level for play took: 0.030204
+[2016.09.01-12.48.48:933][854]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.48.49:654][854]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 1.663
+[2016.09.01-12.48.49:853][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.48.51:464][856]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.09.01-12.48.51:968][856]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.09.01-12.48.52:470][856]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.09.01-12.48.59:070][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.48.59:332][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.49.02:493][ 23]LogEditorViewport: Clicking on Actor (LMB): Landscape (LandscapeIslands)
+[2016.09.01-12.49.25:027][471]LogEditorViewport: Clicking Background
+[2016.09.01-12.49.28:831][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.49.28:831][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.49.28:831][555]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:49:28 PM)
+[2016.09.01-12.49.28:832][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.49.29:236][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.404457s)
+[2016.09.01-12.49.29:237][555]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.49.29:238][555]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2016.09.01-12.49.29:238][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.405977s)
+[2016.09.01-12.49.29:295][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.49.29:301][555]LogInit: FAudioDevice initialized.
+[2016.09.01-12.49.29:347][555]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.49.29:378][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.49.29
+[2016.09.01-12.49.29:379][555]LogWorld: Bringing up level for play took: 0.030453
+[2016.09.01-12.49.29:380][555]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.49.30:101][555]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.111
+[2016.09.01-12.49.30:104][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.49.42:098][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.49.42:152][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.49.51:554][ 11]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Fishboat2)
+[2016.09.01-12.49.53:223][ 32]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.49.53:979][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.49.54:734][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.49.55:748][ 82]LogEditorViewport: Clicking on Actor (LMB): ConstraintTest_C (ConstraintTest)
+[2016.09.01-12.49.57:710][132]Cmd: DELETE
+[2016.09.01-12.49.57:710][132]Cmd: ACTOR DELETE
+[2016.09.01-12.49.57:711][132]LogEditorActor: Deleted Actor: ConstraintTest_C
+[2016.09.01-12.49.57:889][132]LogEditorActor: Deleted 1 Actors (0.179 secs)
+[2016.09.01-12.49.58:859][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_WoodStruts_01b)
+[2016.09.01-12.49.59:507][172]Cmd: DELETE
+[2016.09.01-12.49.59:507][172]Cmd: ACTOR DELETE
+[2016.09.01-12.49.59:508][172]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.49.59:569][172]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2016.09.01-12.50.00:213][191]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.50.01:404][216]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2016.09.01-12.50.02:457][233]Cmd: DELETE
+[2016.09.01-12.50.02:457][233]Cmd: ACTOR DELETE
+[2016.09.01-12.50.02:459][233]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.09.01-12.50.02:539][233]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2016.09.01-12.50.03:262][254]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Fishboat2)
+[2016.09.01-12.50.05:272][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.05:771][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.06:272][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.06:771][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.07:271][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.07:772][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.08:272][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.08:772][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.09:272][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.09:772][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.10:271][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.50.16:810][343]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 23082 times. 
+[2016.09.01-12.50.16:810][343]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 23082 times. 
+[2016.09.01-12.50.48:253][765]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 136098 times. 
+[2016.09.01-12.50.48:253][765]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 136098 times. 
+[2016.09.01-12.55.10:443][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-12.55.10:601][651]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-12.55.10:601][651]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-12.55.10:603][651]LogBlueprint:Warning: Compiler Warning [2076.28] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 32 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.10:603][651]LogBlueprint:Warning: Compiler Warning [2076.28] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.10:603][651]LogBlueprint:Warning: Compiler Warning [2076.28] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.10:685][651]LogBlueprint:Warning: Compiler Warning [2076.36] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 81 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.10:687][651]LogBlueprint:Warning: Compiler Warning [2076.36] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 1 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.10:687][651]LogBlueprint:Warning: Compiler Warning [2076.36] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-12.55.13:711][651]LogSavePackage: Save=3192.52ms
+[2016.09.01-12.55.13:711][651]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto5481CEE934AB5722D1330929B75CC9465.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto5.umap'
+[2016.09.01-12.55.13:713][651]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto5.umap
+[2016.09.01-12.55.13:715][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 5.406
+[2016.09.01-12.55.13:715][651]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.406
+[2016.09.01-12.55.41:325][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.55.41:325][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.55.41:326][ 32]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:55:41 PM)
+[2016.09.01-12.55.41:326][ 32]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.55.41:715][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.389355s)
+[2016.09.01-12.55.41:716][ 32]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.55.41:717][ 32]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2016.09.01-12.55.41:717][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.391557s)
+[2016.09.01-12.55.41:769][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.55.41:776][ 32]LogInit: FAudioDevice initialized.
+[2016.09.01-12.55.41:828][ 32]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.55.41:859][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.55.41
+[2016.09.01-12.55.41:861][ 32]LogWorld: Bringing up level for play took: 0.030732
+[2016.09.01-12.55.41:861][ 32]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.55.42:694][ 32]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 0.704
+[2016.09.01-12.55.42:841][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.55.47:850][128]LogEditorViewport: Clicking Background
+[2016.09.01-12.56.09:535][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.56.09:783][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.56.15:167][689]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 5614 times. 
+[2016.09.01-12.56.15:167][689]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 5614 times. 
+[2016.09.01-12.56.16:198][704]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 10610 times. 
+[2016.09.01-12.56.16:198][704]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 10610 times. 
+[2016.09.01-12.56.17:305][720]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(206): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 20560 times. 
+[2016.09.01-12.56.17:305][720]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\platform\directx11\effect.cpp(210): warning B0001: PlatformStructuredBuffer::OpenReadBuffer waited 20560 times. 
+[2016.09.01-12.56.21:941][870]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.21:998][870]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2016.09.01-12.56.23:307][905]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.23:353][905]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2016.09.01-12.56.24:043][925]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.24:073][925]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2016.09.01-12.56.25:003][946]LogEditorActor: Deleted Actor: BP_HarpoonGun_C
+[2016.09.01-12.56.25:030][946]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.09.01-12.56.25:663][965]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.25:699][965]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2016.09.01-12.56.26:281][983]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.26:322][983]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2016.09.01-12.56.27:132][  8]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.27:170][  8]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2016.09.01-12.56.27:665][ 24]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.27:708][ 24]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2016.09.01-12.56.29:475][ 70]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.29:506][ 70]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2016.09.01-12.56.30:211][ 92]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.30:241][ 92]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2016.09.01-12.56.31:335][123]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.31:367][123]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2016.09.01-12.56.32:033][140]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.32:066][140]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2016.09.01-12.56.32:724][160]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.09.01-12.56.32:770][160]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2016.09.01-12.56.46:971][536]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.57.02:029][816]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.OceanPlane upside2'.
+[2016.09.01-12.57.02:029][816]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneUnderside underside2'.
+[2016.09.01-12.57.02:029][816]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneTopside upside2'.
+[2016.09.01-12.57.03:264][842]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.OceanPlane upside2'.
+[2016.09.01-12.57.03:264][842]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneUnderside underside2'.
+[2016.09.01-12.57.03:264][842]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneTopside upside2'.
+[2016.09.01-12.57.05:601][893]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.OceanPlane upside2'.
+[2016.09.01-12.57.05:602][893]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneUnderside underside2'.
+[2016.09.01-12.57.05:602][893]LogPhysics:Warning: Scale 'X=4.664 Y=0.000 Z=1.000' is not valid on object '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.BP_Ocean_C_1.DepthPlaneTopside upside2'.
+[2016.09.01-12.57.14:978][ 91]LogEditorViewport: Clicking Background
+[2016.09.01-12.57.16:840][129]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.57.30:607][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.57.31:848][374]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.57.32:405][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.57.35:686][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.57.44:014][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-12.57.59:831][781]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-12.58.35:975][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.58.35:975][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.01-12.58.35:976][489]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 3:58:35 PM)
+[2016.09.01-12.58.35:976][489]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-12.58.38:418][489]LogPlayLevel: PIE: StaticDuplicateObject took: (2.440941s)
+[2016.09.01-12.58.38:419][489]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-12.58.38:419][489]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2016.09.01-12.58.38:420][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (2.443182s)
+[2016.09.01-12.58.38:470][489]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-12.58.38:477][489]LogInit: FAudioDevice initialized.
+[2016.09.01-12.58.38:525][489]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-12.58.38:555][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-14.58.38
+[2016.09.01-12.58.38:563][489]LogWorld: Bringing up level for play took: 0.035902
+[2016.09.01-12.58.38:564][489]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-12.58.39:267][489]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 3.276
+[2016.09.01-12.58.39:288][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.58.52:924][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-12.58.53:149][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-13.05.59:287][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.09.01-13.06.01:588][568]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-13.06.01:589][568]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-13.06.01:637][568]LogBlueprint:Warning: Compiler Warning [2727.31] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 92 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.01:638][568]LogBlueprint:Warning: Compiler Warning [2727.31] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.01:638][568]LogBlueprint:Warning: Compiler Warning [2727.31] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.01:740][568]LogBlueprint:Warning: Compiler Warning [2727.41] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 101 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.01:742][568]LogBlueprint:Warning: Compiler Warning [2727.42] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 1 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.01:742][568]LogBlueprint:Warning: Compiler Warning [2727.42] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.06.04:601][568]LogSavePackage: Save=5129.06ms
+[2016.09.01-13.06.04:601][568]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap_Auto6FC65DBD444E65CA04005C0B32D20AB51.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto6.umap'
+[2016.09.01-13.06.04:603][568]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Autosaves/Game/Maps/dcSkyTestMap_Auto6.umap
+[2016.09.01-13.06.04:605][568]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/dcSkyTestMap' took 5.397
+[2016.09.01-13.06.04:605][568]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.397
+[2016.09.01-13.35.07:093][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.01-13.35.07:272][522]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-13.35.07:273][522]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYSun 
+[2016.09.01-13.35.07:289][522]LogBlueprint:Warning: Compiler Warning [4472.96] Compile of PersistentLevel.dcSkyTestMap successful, but with 2 Warning(s) [in 46 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.07:289][522]LogBlueprint:Warning: Compiler Warning [4472.96] Compile of PersistentLevel.dcSkyTestMap successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.07:289][522]LogBlueprint:Warning: Compiler Warning [4472.96] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.07:381][522]LogBlueprint:Warning: Compiler Warning [4473.05] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 91 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.07:383][522]LogBlueprint:Warning: Compiler Warning [4473.06] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 2 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.07:383][522]LogBlueprint:Warning: Compiler Warning [4473.06] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-13.35.10:291][522]LogSavePackage: Save=3069.22ms
+[2016.09.01-13.35.10:291][522]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMapBCC4D73F454534AACA65898144279CFA.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap'
+[2016.09.01-13.35.10:309][522]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap
+[2016.09.01-13.35.10:343][522]LogFileHelpers: Saving map 'dcSkyTestMap' took 3.547
+[2016.09.01-13.35.13:312][594]Cmd: SELECT NONE
+[2016.09.01-13.35.19:130][682]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.01-13.35.21:501][683]Cmd: QUIT_EDITOR
+[2016.09.01-13.35.24:913][683]LogExit: Preparing to exit.
+[2016.09.01-13.35.59:352][683]LogExit: Editor shut down
+[2016.09.01-13.35.59:400][683]LogExit: Transaction tracking system shut down
+[2016.09.01-13.36.33:137][683]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.01-13.36.33:141][683]LogExit: Object subsystem successfully closed.
+[2016.09.01-13.36.40:256][683]LogD3D11RHI: Shutdown
+[2016.09.01-13.36.40:267][683]LogD3D11RHI: CleanupD3DDevice
+[2016.09.01-13.36.40:422][683]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.01-13.36.46:787][683]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (219)
+[2016.09.01-13.36.46:819][683]LogModuleManager: Shutting down and abandoning module BlueprintGraph (218)
+[2016.09.01-13.36.46:828][683]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (217)
+[2016.09.01-13.36.46:831][683]LogModuleManager: Shutting down and abandoning module CrashTracker (216)
+[2016.09.01-13.36.46:884][683]LogModuleManager: Shutting down and abandoning module SceneOutliner (215)
+[2016.09.01-13.36.46:884][683]LogModuleManager: Shutting down and abandoning module WidgetCarousel (214)
+[2016.09.01-13.36.46:890][683]LogModuleManager: Shutting down and abandoning module AddContentDialog (213)
+[2016.09.01-13.36.47:321][683]LogModuleManager: Shutting down and abandoning module GameplayTags (212)
+[2016.09.01-13.36.47:321][683]LogModuleManager: Shutting down and abandoning module EditorWidgets (211)
+[2016.09.01-13.36.47:321][683]LogModuleManager: Shutting down and abandoning module CollectionManager (210)
+[2016.09.01-13.36.47:355][683]LogModuleManager: Shutting down and abandoning module StatsViewer (209)
+[2016.09.01-13.36.47:388][683]LogModuleManager: Shutting down and abandoning module FoliageEdit (208)
+[2016.09.01-13.36.47:398][683]LogModuleManager: Shutting down and abandoning module LandscapeEditor (207)
+[2016.09.01-13.36.47:446][683]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (206)
+[2016.09.01-13.36.47:446][683]LogModuleManager: Shutting down and abandoning module ActorPickerMode (205)
+[2016.09.01-13.36.47:446][683]LogModuleManager: Shutting down and abandoning module GeometryMode (204)
+[2016.09.01-13.36.47:446][683]LogModuleManager: Shutting down and abandoning module TextureAlignMode (203)
+[2016.09.01-13.36.47:446][683]LogModuleManager: Shutting down and abandoning module BspMode (202)
+[2016.09.01-13.36.47:465][683]LogModuleManager: Shutting down and abandoning module HardwareSurvey (201)
+[2016.09.01-13.36.47:474][683]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (200)
+[2016.09.01-13.36.47:489][683]LogModuleManager: Shutting down and abandoning module SequenceRecorder (199)
+[2016.09.01-13.36.47:523][683]LogModuleManager: Shutting down and abandoning module AutomationWorker (198)
+[2016.09.01-13.36.47:536][683]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (197)
+[2016.09.01-13.36.47:548][683]LogModuleManager: Shutting down and abandoning module PlacementMode (196)
+[2016.09.01-13.36.47:588][683]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (195)
+[2016.09.01-13.36.47:634][683]LogModuleManager: Shutting down and abandoning module CharacterAI (194)
+[2016.09.01-13.36.47:634][683]LogModuleManager: Shutting down and abandoning module SmartSnapping (193)
+[2016.09.01-13.36.47:635][683]LogModuleManager: Shutting down and abandoning module SessionServices (192)
+[2016.09.01-13.36.47:635][683]LogModuleManager: Shutting down and abandoning module ViewportSnapping (191)
+[2016.09.01-13.36.47:644][683]LogModuleManager: Shutting down and abandoning module LogVisualizer (190)
+[2016.09.01-13.36.47:707][683]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (189)
+[2016.09.01-13.36.47:738][683]LogModuleManager: Shutting down and abandoning module IntroTutorials (188)
+[2016.09.01-13.36.47:803][683]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (187)
+[2016.09.01-13.36.47:824][683]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (186)
+[2016.09.01-13.36.47:869][683]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (185)
+[2016.09.01-13.36.47:869][683]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (184)
+[2016.09.01-13.36.48:059][683]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (183)
+[2016.09.01-13.36.48:066][683]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (182)
+[2016.09.01-13.36.48:066][683]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (181)
+[2016.09.01-13.36.48:066][683]LogModuleManager: Shutting down and abandoning module MergeActors (180)
+[2016.09.01-13.36.48:094][683]LogModuleManager: Shutting down and abandoning module SizeMap (179)
+[2016.09.01-13.36.48:133][683]LogModuleManager: Shutting down and abandoning module TreeMap (178)
+[2016.09.01-13.36.48:133][683]LogModuleManager: Shutting down and abandoning module ReferenceViewer (177)
+[2016.09.01-13.36.48:148][683]LogModuleManager: Shutting down and abandoning module LocalizationService (176)
+[2016.09.01-13.36.48:180][683]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (175)
+[2016.09.01-13.36.48:223][683]LogModuleManager: Shutting down and abandoning module HardwareTargeting (174)
+[2016.09.01-13.36.48:223][683]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (173)
+[2016.09.01-13.36.48:242][683]LogModuleManager: Shutting down and abandoning module UndoHistory (172)
+[2016.09.01-13.36.48:247][683]LogModuleManager: Shutting down and abandoning module UserFeedback (171)
+[2016.09.01-13.36.48:247][683]LogModuleManager: Shutting down and abandoning module XmlParser (170)
+[2016.09.01-13.36.48:257][683]LogModuleManager: Shutting down and abandoning module Blutility (169)
+[2016.09.01-13.36.48:257][683]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (168)
+[2016.09.01-13.36.48:276][683]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (167)
+[2016.09.01-13.36.48:276][683]LogModuleManager: Shutting down and abandoning module InputBindingEditor (166)
+[2016.09.01-13.36.48:321][683]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (165)
+[2016.09.01-13.36.48:332][683]LogModuleManager: Shutting down and abandoning module SettingsEditor (164)
+[2016.09.01-13.36.48:373][683]LogModuleManager: Shutting down and abandoning module ProjectLauncher (163)
+[2016.09.01-13.36.48:412][683]LogModuleManager: Shutting down and abandoning module SessionFrontend (162)
+[2016.09.01-13.36.48:452][683]LogModuleManager: Shutting down and abandoning module ProfilerClient (161)
+[2016.09.01-13.36.48:476][683]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (160)
+[2016.09.01-13.36.48:477][683]LogModuleManager: Shutting down and abandoning module DeviceManager (159)
+[2016.09.01-13.36.48:577][683]LogModuleManager: Shutting down and abandoning module AutomationController (158)
+[2016.09.01-13.36.48:600][683]LogModuleManager: Shutting down and abandoning module AutomationWindow (157)
+[2016.09.01-13.36.48:622][683]LogModuleManager: Shutting down and abandoning module Layers (156)
+[2016.09.01-13.36.48:644][683]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (155)
+[2016.09.01-13.36.48:644][683]LogModuleManager: Shutting down and abandoning module DetailCustomizations (154)
+[2016.09.01-13.36.48:662][683]LogModuleManager: Shutting down and abandoning module PackagesDialog (153)
+[2016.09.01-13.36.48:662][683]LogModuleManager: Shutting down and abandoning module Persona (152)
+[2016.09.01-13.36.48:758][683]LogModuleManager: Shutting down and abandoning module Kismet (151)
+[2016.09.01-13.36.48:784][683]LogModuleManager: Shutting down and abandoning module GraphEditor (150)
+[2016.09.01-13.36.48:792][683]LogModuleManager: Shutting down and abandoning module ClassViewer (149)
+[2016.09.01-13.36.48:811][683]LogModuleManager: Shutting down and abandoning module Toolbox (148)
+[2016.09.01-13.36.48:822][683]LogModuleManager: Shutting down and abandoning module ModuleUI (147)
+[2016.09.01-13.36.48:856][683]LogModuleManager: Shutting down and abandoning module MovieSceneTools (146)
+[2016.09.01-13.36.48:955][683]LogModuleManager: Shutting down and abandoning module OutputLog (145)
+[2016.09.01-13.36.48:979][683]LogModuleManager: Shutting down and abandoning module GammaUI (144)
+[2016.09.01-13.36.49:001][683]LogModuleManager: Shutting down and abandoning module Documentation (143)
+[2016.09.01-13.36.49:046][683]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (142)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module AnalyticsET (141)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module Analytics (140)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module PortalServices (139)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module PortalRpc (138)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module MessagingRpc (137)
+[2016.09.01-13.36.49:057][683]LogModuleManager: Shutting down and abandoning module GameplayDebugger (136)
+[2016.09.01-13.36.49:089][683]LogModuleManager: Shutting down and abandoning module AITestSuite (135)
+[2016.09.01-13.36.49:099][683]LogModuleManager: Shutting down and abandoning module AIModule (134)
+[2016.09.01-13.36.49:099][683]LogModuleManager: Shutting down and abandoning module ProfilerService (133)
+[2016.09.01-13.36.49:190][683]LogModuleManager: Shutting down and abandoning module TaskGraph (132)
+[2016.09.01-13.36.49:283][683]LogModuleManager: Shutting down and abandoning module OceanPlugin (131)
+[2016.09.01-13.36.49:289][683]LogModuleManager: Shutting down and abandoning module TrueSkyEditorPlugin (130)
+[2016.09.01-13.36.49:320][683]LogModuleManager: Shutting down and abandoning module SlateRemote (129)
+[2016.09.01-13.36.49:327][683]LogModuleManager: Shutting down and abandoning module SteamVRController (128)
+[2016.09.01-13.36.49:327][683]LogModuleManager: Shutting down and abandoning module SteamVR (127)
+[2016.09.01-13.36.49:334][683]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (126)
+[2016.09.01-13.36.49:334][683]LogModuleManager: Shutting down and abandoning module OculusLibrary (125)
+[2016.09.01-13.36.49:334][683]LogModuleManager: Shutting down and abandoning module OculusInput (124)
+[2016.09.01-13.36.49:334][683]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (123)
+[2016.09.01-13.36.49:341][683]LogModuleManager: Shutting down and abandoning module CableComponent (122)
+[2016.09.01-13.36.49:341][683]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (121)
+[2016.09.01-13.36.49:341][683]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (120)
+[2016.09.01-13.36.49:441][683]LogModuleManager: Shutting down and abandoning module HTML5Networking (119)
+[2016.09.01-13.36.49:450][683]LogModuleManager: Shutting down and abandoning module SuperSearch (118)
+[2016.09.01-13.36.49:450][683]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (117)
+[2016.09.01-13.36.49:450][683]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (116)
+[2016.09.01-13.36.49:461][683]LogModuleManager: Shutting down and abandoning module PluginBrowser (115)
+[2016.09.01-13.36.49:506][683]LogModuleManager: Shutting down and abandoning module EpicSurvey (114)
+[2016.09.01-13.36.49:592][683]LogModuleManager: Shutting down and abandoning module DesktopPlatform (113)
+[2016.09.01-13.36.49:617][683]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (112)
+[2016.09.01-13.36.49:647][683]LogModuleManager: Shutting down and abandoning module UObjectPlugin (111)
+[2016.09.01-13.36.49:647][683]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (110)
+[2016.09.01-13.36.49:661][683]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (109)
+[2016.09.01-13.36.49:718][683]LogModuleManager: Shutting down and abandoning module SourceControl (108)
+[2016.09.01-13.36.49:746][683]LogModuleManager: Shutting down and abandoning module GitSourceControl (107)
+[2016.09.01-13.36.49:773][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (106)
+[2016.09.01-13.36.49:773][683]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (105)
+[2016.09.01-13.36.49:787][683]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (104)
+[2016.09.01-13.36.49:803][683]LogModuleManager: Shutting down and abandoning module MeshPaint (103)
+[2016.09.01-13.36.49:809][683]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.09.01-13.36.49:851][683]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.09.01-13.36.49:940][683]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.09.01-13.36.49:962][683]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.09.01-13.36.50:030][683]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.09.01-13.36.50:070][683]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.09.01-13.36.50:114][683]LogModuleManager: Shutting down and abandoning module OceanProject (96)
+[2016.09.01-13.36.50:114][683]LogModuleManager: Shutting down and abandoning module TrueSkyPlugin (95)
+[2016.09.01-13.36.50:757][683]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.01-13.36.50:866][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.01-13.36.50:866][683]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.01-13.36.50:866][683]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.01-13.36.50:906][683]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.01-13.36.50:906][683]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.01-13.36.51:057][683]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.01-13.36.51:057][683]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.01-13.36.51:073][683]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.01-13.36.51:085][683]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.01-13.36.51:091][683]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.01-13.36.51:109][683]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.01-13.36.51:128][683]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.01-13.36.51:166][683]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.01-13.36.51:200][683]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.01-13.36.51:200][683]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.01-13.36.51:271][683]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.01-13.36.51:314][683]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.01-13.36.51:353][683]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.01-13.36.51:353][683]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.01-13.36.51:388][683]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.01-13.36.51:453][683]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.01-13.36.51:453][683]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.01-13.36.51:507][683]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.01-13.36.51:507][683]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.01-13.36.51:601][683]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.01-13.36.51:623][683]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.01-13.36.51:623][683]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.01-13.36.51:623][683]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.01-13.36.51:623][683]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.01-13.36.51:623][683]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.01-13.36.51:644][683]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.01-13.36.52:330][683]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.01-13.36.52:330][683]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.01-13.36.52:347][683]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.01-13.36.52:386][683]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.01-13.36.52:433][683]LogDerivedDataCache: Shutdown
+[2016.09.01-13.36.52:433][683]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.01-13.36.52:471][683]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.01-13.36.52:502][683]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.01-13.36.52:542][683]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.01-13.36.52:588][683]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.01-13.36.52:588][683]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.01-13.36.52:600][683]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.01-13.36.52:636][683]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.01-13.36.52:648][683]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.01-13.36.52:648][683]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.01-13.36.52:655][683]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.01-13.36.52:663][683]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.01-13.36.52:663][683]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.01-13.36.52:663][683]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.01-13.36.52:663][683]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.01-13.36.52:663][683]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.01-13.36.52:678][683]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.01-13.36.52:696][683]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.01-13.36.52:696][683]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.01-13.36.52:697][683]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.01-13.36.52:697][683]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.01-13.36.52:706][683]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.01-13.36.52:707][683]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.01-13.36.52:714][683]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.01-13.36.52:724][683]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.01-13.36.52:729][683]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.01-13.36.52:741][683]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.01-13.36.52:751][683]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.01-13.36.52:777][683]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.01-13.36.52:799][683]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.01-13.36.52:799][683]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.01-13.36.52:811][683]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.01-13.36.52:815][683]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.01-13.36.52:824][683]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.01-13.36.52:880][683]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.01-13.36.52:925][683]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.01-13.36.52:925][683]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.01-13.36.52:945][683]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.01-13.36.52:945][683]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.01-13.36.57:088][683]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.01-13.36.57:217][683]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.01-13.36.57:238][683]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.01-13.36.57:238][683]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.01-13.36.57:299][683]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.01-13.36.57:311][683]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.01-13.36.57:311][683]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.01-13.36.57:495][683]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.01-13.36.57:495][683]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.01-13.36.57:495][683]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.01-13.36.57:499][683]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.01-13.36.57:516][683]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.01-13.36.57:516][683]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.01-13.36.57:516][683]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.01-13.36.57:561][683]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.01-13.36.57:561][683]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.01-13.36.57:580][683]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.01-13.36.57:713][683]LogExit: Exiting.
+[2016.09.01-13.36.57:810][683]Log file closed, 09/01/16 15:36:57

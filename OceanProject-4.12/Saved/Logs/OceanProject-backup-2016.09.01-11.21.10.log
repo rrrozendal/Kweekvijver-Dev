@@ -1,0 +1,564 @@
+﻿Log file open, 09/01/16 09:07:08
+LogInit:Display: Running engine for game: OceanProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1688446778) SRandInit(1688446780).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077987
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal Engine/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.01-07.07.09:083][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.01-07.07.09:083][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.01-07.07.09:102][  0]LogInit: Computer: LAPTOP-2J9C5DVQ
+[2016.09.01-07.07.09:102][  0]LogInit: User: jeen1
+[2016.09.01-07.07.09:102][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.01-07.07.09:102][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.09.01-07.07.09:102][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2016.09.01-07.07.09:102][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.01-07.07.09:102][  0]LogMemory: Process Physical Memory: 190.68 MB used, 190.68 MB peak
+[2016.09.01-07.07.09:102][  0]LogMemory: Process Virtual Memory: 195.23 MB used, 195.23 MB peak
+[2016.09.01-07.07.09:102][  0]LogMemory: Physical Memory: 4541.56 MB used, 8019.78 MB total
+[2016.09.01-07.07.09:102][  0]LogMemory: Virtual Memory: 554.52 MB used, 134217728.00 MB total
+[2016.09.01-07.07.09:141][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.01-07.07.09:548][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.01-07.07.10:124][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.09.01-07.07.10:124][  0]LogD3D11RHI:       2018/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.01-07.07.10:133][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.09.01-07.07.10:133][  0]LogD3D11RHI:       128/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.09.01-07.07.10:135][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.01-07.07.10:135][  0]LogD3D11RHI:       0/0/4009 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.01-07.07.10:135][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.01-07.07.10:139][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.01-07.07.10:140][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2016.09.01-07.07.10:140][  0]LogWindows: EnumDisplayDevices:
+[2016.09.01-07.07.10:140][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.09.01-07.07.10:140][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.09.01-07.07.10:141][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.09.01-07.07.10:141][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.09.01-07.07.10:141][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.09.01-07.07.10:141][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.09.01-07.07.10:141][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.09.01-07.07.10:141][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.01-07.07.10:651][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.01-07.07.10:686][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.09.01-07.07.10:686][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/jeen1/Desktop/OceanProject-4.12/Intermediate/Shaders/WorkingDirectory/5728/).
+[2016.09.01-07.07.10:687][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jeen1/AppData/Local/Temp/UnrealShaderWorkingDir/44DC646A4AEA5B92A4E6338F7B08A1C5/'.
+[2016.09.01-07.07.10:687][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.01-07.07.11:634][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.01-07.07.11:645][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.01-07.07.11:655][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.01-07.07.11:664][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.01-07.07.11:674][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.01-07.07.11:682][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.01-07.07.11:691][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.01-07.07.11:698][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.01-07.07.11:706][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.01-07.07.11:714][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.01-07.07.11:721][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.01-07.07.11:737][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.01-07.07.11:737][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.01-07.07.11:738][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.01-07.07.11:761][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.01-07.07.11:770][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.01-07.07.11:778][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.01-07.07.11:786][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.01-07.07.11:795][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.01-07.07.11:795][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.01-07.07.11:882][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.01-07.07.11:958][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.01-07.07.11:959][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.01-07.07.11:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/jeen1/Desktop/OceanProject-4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.01-07.07.11:959][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.01-07.07.11:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/jeen1/Desktop/OceanProject-4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.01-07.07.11:959][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.01-07.07.11:975][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.01-07.07.11:989][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jeen1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.01-07.07.12:204][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.01-07.07.12:205][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.01-07.07.12:362][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.01-07.07.12:362][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.01-07.07.12:362][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.01-07.07.12:615][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2016.09.01-07.07.12:618][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/jeen1/Desktop/OceanProject-4.12/Plugins/OceanPlugin/Content/. Error: The system cannot find the file specified. (0x00000002)
+[2016.09.01-07.07.12:735][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.117100 seconds
+[2016.09.01-07.07.12:742][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.01-07.07.12:742][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.09.01-07.07.12:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.01-07.07.12:750][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.01-07.07.12:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.01-07.07.12:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.01-07.07.13:857][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.01-07.07.14:143][  0]SourceControl: Info Source control is disabled
+[2016.09.01-07.07.14:144][  0]SourceControl: Info Source control is disabled
+[2016.09.01-07.07.14:155][  0]SourceControl: Info Source control is disabled
+[2016.09.01-07.07.14:166][  0]SourceControl: Info Source control is disabled
+[2016.09.01-07.07.15:099][  0]LogEngine: Initializing Engine...
+[2016.09.01-07.07.15:101][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.01-07.07.15:102][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.01-07.07.15:268][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.01-07.07.15:272][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-07.07.15:281][  0]LogInit: FAudioDevice initialized.
+[2016.09.01-07.07.15:326][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/jeen1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.01-07.07.15:337][  0]LogInit: Texture streaming: Enabled
+[2016.09.01-07.07.15:361][  0]LogInit: Transaction tracking system initialized
+[2016.09.01-07.07.15:383][  0]BlueprintLog: New page: Editor Load
+[2016.09.01-07.07.15:455][  0]LocalizationService: Info Localization service is disabled
+[2016.09.01-07.07.15:522][  0]LogConsoleResponse:Display: 
+[2016.09.01-07.07.15:641][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.01-07.07.15:641][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.01-07.07.15:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/' took 0.02s
+[2016.09.01-07.07.15:750][  0]SourceControl: Info Source control is disabled
+[2016.09.01-07.07.15:750][  0]Cmd: MAP LOAD FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.01-07.07.15:751][  0]LightingResults: New page: Lighting Build
+[2016.09.01-07.07.15:753][  0]MapCheck: New page: Map Check
+[2016.09.01-07.07.15:754][  0]LightingResults: New page: Lighting Build
+[2016.09.01-07.07.16:637][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/TrueSkyPlugin/Content/trueSkyMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-07.07.18:302][  0]LogLinker:Warning: Asset 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/TrueSky/Moon.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning [0010.26] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 5 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning [0010.26] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:317][  0]LogBlueprint:Warning: Compiler Warning [0010.26] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:324][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.07.18:324][  0]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.07.18:324][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.07.18:324][  0]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.07.18:325][  0]LogBlueprint:Warning: Compiler Warning [0010.27] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 5 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:325][  0]LogBlueprint:Warning: Compiler Warning [0010.27] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:325][  0]LogBlueprint:Warning: Compiler Warning [0010.27] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.07.18:494][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Flag/Flag_01.Flag_01'. Please resave the asset.
+[2016.09.01-07.07.18:592][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.18:664][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.18:678][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Back_Sails_LOD.Back_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.18:845][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.18:907][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.18:923][  0]LogSkeletalMesh:Warning: Building adjacency information for skeletal mesh '/Game/ShipsAndExamples/ManOfWar/Meshes/Front_Sails_LOD.Front_Sails_LOD'. Please resave the asset.
+[2016.09.01-07.07.19:274][  0]LogMaterial: Missing cached shader map for material M_Ocean_SSR, compiling. 
+[2016.09.01-07.07.19:278][  0]LogMaterial:Warning: Failed to compile Material Instance /Game/Ocean/Materials/M_Ocean_Versions/M_Inst_Ocean_SSR_Foam_Cubemap.M_Inst_Ocean_SSR_Foam_Cubemap with Base M_Ocean_SSR for platform PCD3D_SM5, Default Material will be used in game.
+[2016.09.01-07.07.19:278][  0]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Color, should be Linear Color for /Engine/MapTemplates/Sky/Desert_Outer_HDR.Desert_Outer_HDR
+[2016.09.01-07.07.19:293][  0]LogMaterial: Missing cached shader map for material M_Ocean, compiling. 
+[2016.09.01-07.07.19:298][  0]LogMaterial:Warning: Failed to compile Material Instance /Game/Ocean/Materials/M_Ocean_Versions/M_Inst_Ocean_Foam_Cubemap.M_Inst_Ocean_Foam_Cubemap with Base M_Ocean for platform PCD3D_SM5, Default Material will be used in game.
+[2016.09.01-07.07.19:298][  0]LogMaterial:Warning: 	(Node TextureSampleParameterCube) TextureSampleParameter> Sampler type is Color, should be Linear Color for /Engine/MapTemplates/Sky/Desert_Outer_HDR.Desert_Outer_HDR
+[2016.09.01-07.07.20:365][  0]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-07.07.20:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.01-07.07.20:880][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.01-07.07.21:027][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 146.787ms to complete.
+[2016.09.01-07.07.21:027][  0]LogFileHelpers: Loading map 'dcSkyTestMap' took 5.277
+[2016.09.01-07.07.21:126][  0]LogCollectionManager: Loaded 0 collections in 0.003876 seconds
+[2016.09.01-07.07.21:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/Collections/' took 0.01s
+[2016.09.01-07.07.21:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Developers/jeen1/Collections/' took 0.01s
+[2016.09.01-07.07.21:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Collections/' took 0.01s
+[2016.09.01-07.07.21:181][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.09.01-07.07.21:207][  0]LogContentBrowser: Native class hierarchy populated in 0.0255 seconds. Added 2065 classes and 380 folders.
+[2016.09.01-07.07.21:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.01-07.07.21:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.01-07.07.21:214][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0023 seconds. Added 12 classes and 0 folders.
+[2016.09.01-07.07.21:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2016.09.01-07.07.21:294][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2016.09.01-07.07.21:525][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.09.01-07.07.21:539][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.01-07.07.21:547][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.01-07.07.21:575][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2016.09.01-07.07.21:576][  0]LogLoad: Full Startup: 13.52 seconds (BP compile: 0.97 seconds)
+[2016.09.01-07.07.21:576][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.01-07.07.21:576][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.01-07.07.21:585][  0]LogOcInput: OculusInput pre-init called
+[2016.09.01-07.07.21:635][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.09.01-07.07.21:775][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.09.01-07.07.21:787][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/' took 0.19s
+[2016.09.01-07.07.21:817][  2]LogRenderer: Reallocating scene render targets to support 508x452 (Frame:2).
+[2016.09.01-07.07.21:832][  2]TrueSky:Display: Simul version 4.1 build 382
+[2016.09.01-07.07.21:832][  2]TrueSky:Display: Loaded trueSKY dynamic library ../../../Engine//binaries/thirdparty/simul/Win64/TrueSkyPluginRender_MT.dll.
+[2016.09.01-07.07.22:001][  2]LogRenderer: Reallocating scene render targets to support 680x604 (Frame:2).
+[2016.09.01-07.07.22:274][  2]LogAssetRegistry: Asset discovery search completed in 9.6800 seconds
+[2016.09.01-07.07.22:274][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000019 seconds (found 0 objects)
+[2016.09.01-07.07.22:274][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2016.09.01-07.07.26:335][160]LogRenderer: Reallocating scene render targets to support 800x688 (Frame:155).
+[2016.09.01-07.07.28:409][237]TrueSky:Display: Project directory: D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\Win64 
+[2016.09.01-07.07.28:410][237]TrueSky:Display:  QTDIR  
+[2016.09.01-07.07.28:415][237]TrueSky:Warning: Main.cpp(488): warning B0001: WARNING: errno!=0: Invalid argument 
+[2016.09.01-07.07.28:417][237]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\Qt5Gui.dll 
+[2016.09.01-07.07.28:417][237]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulClouds_MD.dll 
+[2016.09.01-07.07.28:417][237]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\clouds\environment.cpp(69): warning B0001: WARNING: errno!=0: Invalid argument 
+[2016.09.01-07.07.28:430][237]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SequencerQtWidgets_MD.dll 
+[2016.09.01-07.07.30:997][237]TrueSky:Display: File exists :/translations/translations/qt_ja.qm 
+[2016.09.01-07.07.30:997][237]TrueSky:Display: No file /qt_en.qm 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to load qt_en 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to install qtTranslator 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to load SequencerQtWidgets_en.qm 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to install sequencerQtWidgetsTranslator 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to load SkySequencer_en 
+[2016.09.01-07.07.30:998][237]TrueSky:Display: Failed to install sequencerTranslator 
+[2016.09.01-07.07.31:048][237]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulCrossPlatform_MD.dll 
+[2016.09.01-07.07.40:085][477]TrueSky:Display: Loaded Library D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\ThirdParty\Simul\Win64\SimulSky_MD.dll 
+[2016.09.01-07.07.52:030][770]LogRenderer: Reallocating scene render targets to support 800x872 (Frame:762).
+[2016.09.01-07.08.07:899][303]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\sky\basekeyframer.cpp(726): warning B0001: SIMUL_ASSERT_WARN failed : in.interpolation >=-0.00001f && in.interpolation <= 1.00001f Interpolation warning 
+[2016.09.01-07.09.00:415][915]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\sky\basekeyframer.cpp(726): warning B0001: SIMUL_ASSERT_WARN failed : in.interpolation >=-0.00001f && in.interpolation <= 1.00001f Interpolation warning 
+[2016.09.01-07.09.00:415][915]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\sky\basekeyframer.cpp(726): warning B0001: SIMUL_ASSERT_WARN failed : in.interpolation >=-0.00001f && in.interpolation <= 1.00001f Interpolation warning 
+[2016.09.01-07.09.00:415][915]TrueSky:Warning: d:\jarvis\releases\simulversion\4.1\simul\sky\basekeyframer.cpp(726): warning B0001: SIMUL_ASSERT_WARN failed : in.interpolation >=-0.00001f && in.interpolation <= 1.00001f Interpolation warning 
+[2016.09.01-07.14.11:230][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewTrueSkySequenceAsset" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset" SILENT=true
+[2016.09.01-07.14.11:572][848]LogSavePackage: Save=258.46ms
+[2016.09.01-07.14.11:572][848]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/NewTrueSkySequenceAssetAD4484C04DB84D6C11F32DAADE2B2777.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset'
+[2016.09.01-07.14.11:614][848]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset
+[2016.09.01-07.20.07:494][984]LogLinker:Warning: Asset 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/trueSkyMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-07.20.09:140][984]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0114 seconds. Added 111 classes and 0 folders.
+[2016.09.01-07.20.11:483][984]LogTexture:Display: Building textures: BlueprintMacroLibrary_64x (BGRA8)
+[2016.09.01-07.21.58:414][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.09.01-07.43.28:734][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.43.28:735][327]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-07.43.28:738][327]LogPlayLevel: [PlayLevel] Compiling trueSkyMacros before play...
+[2016.09.01-07.43.29:147][327]LogPlayLevel: PlayLevel: Blueprint regeneration took 412 ms (1 blueprints)
+[2016.09.01-07.43.29:414][327]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 10:43:29 AM)
+[2016.09.01-07.43.29:414][327]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-07.43.30:335][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.920959s)
+[2016.09.01-07.43.30:337][327]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-07.43.30:338][327]LogPlayLevel: PIE: World Init took: (0.002544s)
+[2016.09.01-07.43.30:356][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.942361s)
+[2016.09.01-07.43.30:448][327]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-07.43.30:457][327]LogInit: FAudioDevice initialized.
+[2016.09.01-07.43.30:771][327]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-07.43.30:985][327]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-09.43.30
+[2016.09.01-07.43.31:196][327]LogWorld: Bringing up level for play took: 0.273577
+[2016.09.01-07.43.31:290][327]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-07.43.31:500][327]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 11 classes and 0 folders.
+[2016.09.01-07.43.32:595][327]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 3.544
+[2016.09.01-07.43.32:667][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.44.11:703][279]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-07.44.11:703][279]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.09.01-07.45.21:226][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.45.21:671][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.47.52:224][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.47.52:224][353]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-07.47.52:231][353]LogPlayLevel: [PlayLevel] Compiling dcSkyTestMap before play...
+[2016.09.01-07.47.52:245][353]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.47.52:245][353]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.47.52:245][353]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.47.52:245][353]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.47.52:246][353]LogBlueprint:Warning: Compiler Warning [2444.19] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 9 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:339][353]LogBlueprint:Warning: Compiler Warning [2446.28] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:339][353]LogBlueprint:Warning: Compiler Warning [2446.28] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:460][353]LogBlueprint:Warning: Compiler Warning [2446.40] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 120 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:462][353]LogBlueprint:Warning: Compiler Warning [2446.41] Compile of PersistentLevel.dcSkyTestMap successful, but with 8 Warning(s) [in 2 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:462][353]LogBlueprint:Warning: Compiler Warning [2446.41] Compile of PersistentLevel.dcSkyTestMap successful, but with 9 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.47.54:463][353]LogPlayLevel: PlayLevel: Blueprint regeneration took 2238 ms (1 blueprints)
+[2016.09.01-07.47.54:486][353]PIE: New page: SIE session: dcSkyTestMap (Sep 1, 2016, 10:47:54 AM)
+[2016.09.01-07.47.54:486][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_dcSkyTestMap
+[2016.09.01-07.47.54:770][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.283288s)
+[2016.09.01-07.47.54:771][353]LogAIModule: Creating AISystem for world dcSkyTestMap
+[2016.09.01-07.47.54:771][353]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2016.09.01-07.47.54:772][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/dcSkyTestMap.dcSkyTestMap to /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap (0.285231s)
+[2016.09.01-07.47.54:797][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-07.47.54:805][353]LogInit: FAudioDevice initialized.
+[2016.09.01-07.47.54:859][353]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-07.47.54:894][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_dcSkyTestMap.dcSkyTestMap up for play (max tick rate 60) at 2016.09.01-09.47.54
+[2016.09.01-07.47.54:896][353]LogWorld: Bringing up level for play took: 0.034801
+[2016.09.01-07.47.54:897][353]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.09.01-07.47.55:607][353]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_dcSkyTestMap 2.557
+[2016.09.01-07.47.55:609][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap' with GeneratedClass '/Game/Maps/dcSkyTestMap.dcSkyTestMap_C' with ClassGeneratedBy '/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap'
+[2016.09.01-07.50.12:711][439]LogWindows: LaunchURL http://docs.simul.co/unrealengine
+[2016.09.01-07.52.18:476][156]Cmd: STAT FPS
+[2016.09.01-07.54.11:733][953]LogEditorViewport: Clicking on Actor (LMB): BP_Ocean_C (BP_Ocean)
+[2016.09.01-07.55.04:856][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/dcSkyTestMap" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.01-07.55.05:039][162]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.05:039][162]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.05:040][162]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.05:040][162]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'dcSkyTestMap_C'.
+Make sure 'dcSkyTestMap_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.05:040][162]LogBlueprint:Warning: Compiler Warning [2876.98] Compile of PersistentLevel.dcSkyTestMap successful, but with 4 Warning(s) [in 9 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.05:041][162]LogBlueprint:Warning: Compiler Warning [2876.98] Compile of PersistentLevel.dcSkyTestMap successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.05:041][162]LogBlueprint:Warning: Compiler Warning [2876.98] Compile of PersistentLevel.dcSkyTestMap successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.05:139][162]LogBlueprint:Warning: Compiler Warning [2877.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 7 Warning(s) [in 98 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.05:141][162]LogBlueprint:Warning: Compiler Warning [2877.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 8 Warning(s) [in 1 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.05:141][162]LogBlueprint:Warning: Compiler Warning [2877.08] Compile of PersistentLevel.dcSkyTestMap successful, but with 9 Warning(s) [in 0 ms] (/Game/Maps/dcSkyTestMap.dcSkyTestMap:PersistentLevel.dcSkyTestMap)
+[2016.09.01-07.55.08:661][162]LogSavePackage: Save=3635.25ms
+[2016.09.01-07.55.08:661][162]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/dcSkyTestMap59D4F4CA44A8AE22D3A74387913AB648.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap'
+[2016.09.01-07.55.08:678][162]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/dcSkyTestMap.umap
+[2016.09.01-07.55.08:810][162]LogFileHelpers: Saving map 'dcSkyTestMap' took 4.417
+[2016.09.01-07.55.08:811][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewTrueSkySequenceAsset" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset" SILENT=true
+[2016.09.01-07.55.08:855][162]LogSavePackage: Save=28.83ms
+[2016.09.01-07.55.08:855][162]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/NewTrueSkySequenceAsset1498599A45F0190DB7C857B321C8CDF0.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset'
+[2016.09.01-07.55.08:858][162]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset
+[2016.09.01-07.55.08:859][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/trueSkyMacros" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/trueSkyMacros.uasset" SILENT=true
+[2016.09.01-07.55.08:917][162]LogSavePackage: Save=48.62ms
+[2016.09.01-07.55.08:917][162]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/trueSkyMacrosB4154E314213F79B25E232A6613ECEA6.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/trueSkyMacros.uasset'
+[2016.09.01-07.55.08:920][162]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/trueSkyMacros.uasset
+[2016.09.01-07.55.39:226][364]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.39:227][364]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.39:227][364]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'TrueSkyOriginal_C'.
+Make sure 'TrueSkyOriginal_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.39:227][364]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'TrueSkyOriginal_C'.
+Make sure 'TrueSkyOriginal_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.39:229][364]LogBlueprint:Warning: Compiler Warning [2911.17] Compile of PersistentLevel.TrueSkyOriginal successful, but with 4 Warning(s) [in 12 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:230][364]LogBlueprint:Warning: Compiler Warning [2911.17] Compile of PersistentLevel.TrueSkyOriginal successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:230][364]LogBlueprint:Warning: Compiler Warning [2911.17] Compile of PersistentLevel.TrueSkyOriginal successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:408][364]LogBlueprint:Warning: Compiler Warning [2911.35] Compile of PersistentLevel.TrueSkyOriginal successful, but with 7 Warning(s) [in 177 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:436][364]LogBlueprint:Warning: Compiler Warning [2911.38] Compile of PersistentLevel.TrueSkyOriginal successful, but with 8 Warning(s) [in 27 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:438][364]LogBlueprint:Warning: Compiler Warning [2911.38] Compile of PersistentLevel.TrueSkyOriginal successful, but with 9 Warning(s) [in 2 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:438][364]LogBlueprint:Warning: Compiler Warning [2911.38] Compile of PersistentLevel.TrueSkyOriginal successful, but with 10 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:439][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TrueSkyOriginal" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/TrueSkyOriginal.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.01-07.55.39:477][364]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.39:477][364]LogBlueprint:Warning: Compiler Warning CreatePinForVariable: 'LightComponent' variable not found. Base class was probably changed.
+[2016.09.01-07.55.39:478][364]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'TrueSkyOriginal_C'.
+Make sure 'TrueSkyOriginal_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.39:478][364]LogBlueprint:Warning: Compiler Warning Could not find a variable named "LightComponent" in 'TrueSkyOriginal_C'.
+Make sure 'TrueSkyOriginal_C' has been compiled for  trueSKYLighting 
+[2016.09.01-07.55.39:478][364]LogBlueprint:Warning: Compiler Warning [2911.42] Compile of PersistentLevel.TrueSkyOriginal successful, but with 4 Warning(s) [in 11 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:478][364]LogBlueprint:Warning: Compiler Warning [2911.42] Compile of PersistentLevel.TrueSkyOriginal successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:478][364]LogBlueprint:Warning: Compiler Warning [2911.42] Compile of PersistentLevel.TrueSkyOriginal successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:561][364]LogBlueprint:Warning: Compiler Warning [2911.50] Compile of PersistentLevel.TrueSkyOriginal successful, but with 7 Warning(s) [in 82 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:564][364]LogBlueprint:Warning: Compiler Warning [2911.51] Compile of PersistentLevel.TrueSkyOriginal successful, but with 8 Warning(s) [in 2 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.39:564][364]LogBlueprint:Warning: Compiler Warning [2911.51] Compile of PersistentLevel.TrueSkyOriginal successful, but with 9 Warning(s) [in 0 ms] (/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal)
+[2016.09.01-07.55.42:577][364]LogSavePackage: Save=3113.45ms
+[2016.09.01-07.55.42:577][364]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/TrueSkyOriginalE13C323B413773C1B53CFA9599580ED0.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/TrueSkyOriginal.umap'
+[2016.09.01-07.55.42:580][364]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/TrueSkyOriginal.umap
+[2016.09.01-07.55.42:597][364]LogFileHelpers: Saving map 'TrueSkyOriginal' took 6.792
+[2016.09.01-07.55.53:926][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal' with GeneratedClass '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal_C' with ClassGeneratedBy '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal'
+[2016.09.01-07.55.53:980][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal' with GeneratedClass '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal_C' with ClassGeneratedBy '/Game/Maps/TrueSkyOriginal.TrueSkyOriginal:PersistentLevel.TrueSkyOriginal'
+[2016.09.01-07.55.54:473][743]Cmd: MAP LOAD FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/OceanStorm.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.01-07.55.54:523][743]LightingResults: New page: Lighting Build
+[2016.09.01-07.55.54:525][743]LoadErrors: New page: Loading map: OceanStorm.umap
+[2016.09.01-07.55.54:826][743]MapCheck: New page: Map Check
+[2016.09.01-07.55.54:826][743]LightingResults: New page: Lighting Build
+[2016.09.01-07.55.56:217][743]LogStaticMesh: Building static mesh Moon...
+[2016.09.01-07.55.56:288][743]LogStaticMesh: Built static mesh [0.08s] /Game/Sky/Meshes/Moon.Moon
+[2016.09.01-07.55.56:540][743]LogTexture:Display: Building textures: T_Moon_AmbientOcclusion (AutoDXT)
+[2016.09.01-07.55.57:516][743]LogTexture:Display: Building textures: T_Moon_Diffuse (AutoDXT)
+[2016.09.01-07.55.58:844][743]LogTexture:Display: Building textures: T_Moon_Height (AutoDXT)
+[2016.09.01-07.55.59:585][743]LogMaterial: Missing cached shader map for material M_Moon, compiling. 
+[2016.09.01-07.55.59:840][743]LogMaterial: Missing cached shader map for material M_Sky, compiling. 
+[2016.09.01-07.55.59:850][743]LogTexture:Display: Building textures: T_DropSubUV_N (BC5)
+[2016.09.01-07.55.59:949][743]LogTexture:Display: Building textures: CubeNearEntrance (RGBA16F)
+[2016.09.01-07.56.00:472][743]LogTexture:Display: Building textures: T_DropSubUV_A (AutoDXT)
+[2016.09.01-07.56.00:520][743]LogMaterial: Missing cached shader map for material M_WaterDrop_SubUV, compiling. 
+[2016.09.01-07.56.00:791][743]LogMaterial: Missing cached shader map for material M_OceanStorm, compiling. 
+[2016.09.01-07.56.00:919][743]LogAudioDerivedData:Display: Building compressed audio format OGG wave Wind...
+[2016.09.01-07.56.02:530][743]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.09.01-07.56.02:572][743]LogAIModule: Creating AISystem for world OceanStorm
+[2016.09.01-07.56.02:740][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.01-07.56.02:768][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.01-07.56.02:945][743]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.815ms to complete.
+[2016.09.01-07.56.02:945][743]LogFileHelpers: Loading map 'OceanStorm' took 10.036
+[2016.09.01-07.56.03:337][744]Cmd: UpdateLandscapeEditorData
+[2016.09.01-07.57.06:314][331]Cmd: STAT FPS
+[2016.09.01-07.58.30:918][391]TrueSky:Display: Project directory: D:\Unreal Engine\Epic Games\4.12\Engine\Binaries\Win64 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: File exists :/translations/translations/qt_ja.qm 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: No file /qt_en.qm 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to load qt_en 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to install qtTranslator 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to load SequencerQtWidgets_en.qm 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to install sequencerQtWidgetsTranslator 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to load SkySequencer_en 
+[2016.09.01-07.58.36:396][391]TrueSky:Display: Failed to install sequencerTranslator 
+[2016.09.01-08.02.39:402][960]LogRenderer: Reallocating scene render targets to support 1284x976 (Frame:72962).
+[2016.09.01-08.02.39:488][961]LogRenderer: Reallocating scene render targets to support 1540x1032 (Frame:72964).
+[2016.09.01-08.03.45:215][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OceanPlane)
+[2016.09.01-08.04.27:002][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OceanStorm" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/OceanStorm.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.01-08.04.27:205][320]LogSavePackage: Save=164.20ms
+[2016.09.01-08.04.27:205][320]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/OceanStormB364265143E60A43CB54ADA3C2315F9E.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/OceanStorm.umap'
+[2016.09.01-08.04.27:209][320]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/OceanStorm.umap
+[2016.09.01-08.04.27:307][320]LogFileHelpers: Saving map 'OceanStorm' took 0.492
+[2016.09.01-08.04.27:310][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewTrueSkySequenceAsset" FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset" SILENT=true
+[2016.09.01-08.04.27:335][320]LogSavePackage: Save=16.49ms
+[2016.09.01-08.04.27:335][320]LogSavePackage: Moving 'C:/Users/jeen1/Desktop/OceanProject-4.12/Saved/NewTrueSkySequenceAsset62CFE2654C5DAF00599DD6B384FE9E51.tmp' to 'C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset'
+[2016.09.01-08.04.27:339][320]LogSavePackage:Display: Finished SavePackage C:/Users/jeen1/Desktop/OceanProject-4.12/Content/NewTrueSkySequenceAsset.uasset
+[2016.09.01-08.04.27:691][320]Cmd: MAP LOAD FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/OceanExampleMap_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.01-08.04.27:731][320]LightingResults: New page: Lighting Build
+[2016.09.01-08.04.27:732][320]LoadErrors: New page: Loading map: OceanExampleMap_01.umap
+[2016.09.01-08.04.27:736][320]MapCheck: New page: Map Check
+[2016.09.01-08.04.27:736][320]LightingResults: New page: Lighting Build
+[2016.09.01-08.04.29:677][320]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2016.09.01-08.04.29:889][320]LogBlueprint:Warning: [OceanExampleMap_01] CreatePinForVariable: 'Skydome' variable not found. Base class was probably changed.
+[2016.09.01-08.04.29:889][320]LogBlueprint:Warning: [OceanExampleMap_01] CreatePinForVariable: 'Skydome' variable not found. Base class was probably changed.
+[2016.09.01-08.04.29:895][320]LogBlueprint:Warning: Compiler Warning Could not find a variable named "Skydome" in 'WB_SkyOLD_HUD_C'.
+Make sure 'WB_SkyOLD_HUD_C' has been compiled for  Set Skydome 
+[2016.09.01-08.04.29:908][320]LogBlueprint:Error: Compiler Error The property associated with  Skydome  could not be found
+[2016.09.01-08.04.29:924][320]LogBlueprint:Warning: Compiler Warning [3441.87] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 1 Warning(s) [in 33 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.29:924][320]LogBlueprint:Warning: Compiler Warning [3441.87] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.29:924][320]LogBlueprint:Warning: Compiler Warning [3441.87] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.29:930][320]LogBlueprint:Warning: [OceanExampleMap_01] CreatePinForVariable: 'Skydome' variable not found. Base class was probably changed.
+[2016.09.01-08.04.29:930][320]LogBlueprint:Warning: [OceanExampleMap_01] CreatePinForVariable: 'Skydome' variable not found. Base class was probably changed.
+[2016.09.01-08.04.29:938][320]LogBlueprint:Warning: Compiler Warning Could not find a variable named "Skydome" in 'WB_SkyOLD_HUD_C'.
+Make sure 'WB_SkyOLD_HUD_C' has been compiled for  Set Skydome 
+[2016.09.01-08.04.29:942][320]LogBlueprint:Error: Compiler Error The property associated with  Skydome  could not be found
+[2016.09.01-08.04.29:949][320]LogBlueprint:Warning: Compiler Warning [3441.89] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 1 Warning(s) [in 17 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.29:949][320]LogBlueprint:Warning: Compiler Warning [3441.89] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.29:949][320]LogBlueprint:Warning: Compiler Warning [3441.89] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.04.30:351][320]LogStaticMesh: Building static mesh FishingBoat...
+[2016.09.01-08.04.30:384][320]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.09.01-08.04.30:997][320]LogStaticMesh: Built static mesh [0.65s] /Game/Ocean/Meshes/FishingBoat.FishingBoat
+[2016.09.01-08.04.31:316][320]LogTexture:Display: Building textures: T_Sand_M (AutoDXT)
+[2016.09.01-08.04.33:834][320]LogTexture:Display: Building textures: T_Sand_D (AutoDXT)
+[2016.09.01-08.04.36:340][320]LogTexture:Display: Building textures: T_SandDunes_N (BC5)
+[2016.09.01-08.04.36:928][320]LogTexture:Display: Building textures: T_Sand_N (BC5)
+[2016.09.01-08.04.37:402][320]LogTexture:Display: Building textures: T_SandDunes_N_DISP (AutoDXT)
+[2016.09.01-08.04.38:623][320]LogMaterial: Missing cached shader map for material M_Sand, compiling. 
+[2016.09.01-08.04.38:746][320]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2016.09.01-08.04.38:778][320]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2016.09.01-08.04.38:813][320]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2016.09.01-08.04.38:843][320]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2016.09.01-08.04.39:036][320]LogTexture:Display: Building textures: T_SmokeSubUV_8X8_02 (AutoDXT)
+[2016.09.01-08.04.41:045][320]LogTexture:Display: Building textures: T_TilingClouds_01 (AutoDXT)
+[2016.09.01-08.04.41:284][320]LogMaterial: Missing cached shader map for material M_Snow_Blowing_Lit, compiling. 
+[2016.09.01-08.04.41:489][320]LogTexture:Display: Building textures: T_TilingNoise12 (AutoDXT)
+[2016.09.01-08.04.43:140][320]LogTexture:Display: Building textures: T_Snow01_Packed (AutoDXT)
+[2016.09.01-08.04.43:173][320]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp, compiling. 
+[2016.09.01-08.04.43:321][320]LogStaticMesh: Building static mesh bottle...
+[2016.09.01-08.04.43:388][320]LogStaticMesh: Built static mesh [0.07s] /Game/ShipsAndExamples/Assets/Misc/bottle.bottle
+[2016.09.01-08.04.43:399][320]LogStaticMesh: Building static mesh SM_Cave_RopeBridge_01b...
+[2016.09.01-08.04.43:598][320]LogStaticMesh: Built static mesh [0.20s] /Game/ShipsAndExamples/Assets/Environment/Meshes/RopeBridge/SM_Cave_RopeBridge_01b.SM_Cave_RopeBridge_01b
+[2016.09.01-08.04.43:604][320]LogStaticMesh: Building static mesh SM_Cave_RopeBridge_01c...
+[2016.09.01-08.04.43:698][320]LogStaticMesh: Built static mesh [0.09s] /Game/ShipsAndExamples/Assets/Environment/Meshes/RopeBridge/SM_Cave_RopeBridge_01c.SM_Cave_RopeBridge_01c
+[2016.09.01-08.04.43:699][320]LogStaticMesh: Building static mesh SM_Cave_WoodStruts_01a...
+[2016.09.01-08.04.43:704][320]LogStaticMesh: Built static mesh [0.01s] /Game/ShipsAndExamples/Assets/Environment/Meshes/WoodStruts/SM_Cave_WoodStruts_01a.SM_Cave_WoodStruts_01a
+[2016.09.01-08.04.43:709][320]LogStaticMesh: Building static mesh SM_IceChunk_01...
+[2016.09.01-08.04.43:758][320]LogStaticMesh: Built static mesh [0.05s] /Game/ShipsAndExamples/Assets/Elemental/Environment/Ice_Assets/Meshes/SM_IceChunk_01.SM_IceChunk_01
+[2016.09.01-08.04.43:763][320]LogMaterial: Missing cached shader map for material M_Plastic, compiling. 
+[2016.09.01-08.04.43:808][320]LogMaterial: Missing cached shader map for material Mat_Glass, compiling. 
+[2016.09.01-08.04.44:769][320]LogTexture:Display: Building textures: T_IceChunk_01_N (BC5)
+[2016.09.01-08.04.47:106][320]LogTexture:Display: Building textures: LS_Snow_01_D (AutoDXT)
+[2016.09.01-08.04.49:770][320]LogTexture:Display: Building textures: T_Aurora01_Noise (BGRA8)
+[2016.09.01-08.04.50:152][320]LogTexture:Display: Building textures: T_Glacier_CliffSide_N (BC5)
+[2016.09.01-08.04.50:841][320]LogTexture:Display: Building textures: T_TilingNoise12 (AutoDXT)
+[2016.09.01-08.04.52:549][320]LogMaterial: Missing cached shader map for material M_IceChunk_01, compiling. 
+[2016.09.01-08.04.52:652][320]LogTexture:Display: Building textures: LUT_Morning (BGRA8)
+[2016.09.01-08.04.52:755][320]LogMaterial: Missing cached shader map for material M_Underwater_PP, compiling. 
+[2016.09.01-08.04.52:775][320]LogMaterial: Missing cached shader map for material M_Template_Master, compiling. 
+[2016.09.01-08.04.52:841][320]LogTexture:Display: Building textures: Water3 (AutoDXT)
+[2016.09.01-08.04.53:357][320]LogTexture:Display: Building textures: Water2 (AutoDXT)
+[2016.09.01-08.04.53:910][320]LogTexture:Display: Building textures: Water1 (AutoDXT)
+[2016.09.01-08.04.54:503][320]LogMaterial: Missing cached shader map for material WaterLightFunction, compiling. 
+[2016.09.01-08.04.54:531][320]LogMaterial: Missing cached shader map for material DefaultTextMaterialTranslucent, compiling. 
+[2016.09.01-08.04.54:709][320]LogTexture:Display: Building textures: T_TilingNoise03 (AutoDXT)
+[2016.09.01-08.04.56:193][320]LogTexture:Display: Building textures: T_IceTiling01_D (AutoDXT)
+[2016.09.01-08.04.58:781][320]LogTexture:Display: Building textures: DefaultNormal_Uncompressed (AutoDXT)
+[2016.09.01-08.04.58:846][320]LogTexture:Display: Building textures: SphereRenderNormalsMap (BC5)
+[2016.09.01-08.04.58:875][320]LogMaterial: Missing cached shader map for material M_BigSnow, compiling. 
+[2016.09.01-08.04.58:950][320]LogStaticMesh: Building static mesh Iceberg1...
+[2016.09.01-08.04.58:962][320]LogStaticMesh: Built static mesh [0.01s] /Game/ShipsAndExamples/Iceberg/Iceberg1/Iceberg1.Iceberg1
+[2016.09.01-08.04.59:023][320]LogTexture:Display: Building textures: Rock1024 (AutoDXT)
+[2016.09.01-08.04.59:443][320]LogTexture:Display: Building textures: Gradient (BGRA8)
+[2016.09.01-08.04.59:491][320]LogMaterial: Missing cached shader map for material M_IceChunks_01, compiling. 
+[2016.09.01-08.05.00:467][320]LogAIModule: Creating AISystem for world OceanExampleMap_01
+[2016.09.01-08.05.00:999][320]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.09.01-08.05.01:031][320]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.01-08.05.01:300][320]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 268.319ms to complete.
+[2016.09.01-08.05.01:300][320]LogFileHelpers: Loading map 'OceanExampleMap_01' took 33.957
+[2016.09.01-08.05.01:309][320]LoadErrors:Error: Error /Game/Maps/OceanExampleMap_01 : Failed import for ObjectProperty /Game/Sky/Old/WB_SkyOLD_HUD.WB_SkyOLD_HUD_C:Skydome
+[2016.09.01-08.05.01:511][321]Cmd: UpdateLandscapeEditorData -warnings
+[2016.09.01-08.05.13:640][881]LogEditorViewport: Clicking on Actor (LMB): BP_BuoyantActor_C (BP_BuoyantActor18)
+[2016.09.01-08.05.18:663][ 53]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.09.01-08.05.33:361][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.05.33:361][613]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-08.05.33:362][613]LogPlayLevel: [PlayLevel] Compiling OceanExampleMap_01 before play...
+[2016.09.01-08.05.33:408][613]LogBlueprint:Warning: Compiler Warning Could not find a variable named "Skydome" in 'WB_SkyOLD_HUD_C'.
+Make sure 'WB_SkyOLD_HUD_C' has been compiled for  Set Skydome 
+[2016.09.01-08.05.33:412][613]LogBlueprint:Error: Compiler Error The property associated with  Skydome  could not be found
+[2016.09.01-08.05.33:618][613]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2016.09.01-08.05.34:135][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 1 Warning(s) [in 746 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:135][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:135][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:135][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:136][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:136][613]LogBlueprint:Warning: Compiler Warning [3506.08] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.05.34:241][613]LogPlayLevel: PlayLevel: Blueprint regeneration took 879 ms (1 blueprints)
+[2016.09.01-08.05.34:365][613]BlueprintLog: Info Blueprint OceanExampleMap_01 failed to compile
+[2016.09.01-08.06.05:835][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.06.05:835][807]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-08.06.05:836][807]LogPlayLevel: [PlayLevel] Compiling OceanExampleMap_01 before play...
+[2016.09.01-08.06.05:881][807]LogBlueprint:Warning: Compiler Warning Could not find a variable named "Skydome" in 'WB_SkyOLD_HUD_C'.
+Make sure 'WB_SkyOLD_HUD_C' has been compiled for  Set Skydome 
+[2016.09.01-08.06.05:887][807]LogBlueprint:Error: Compiler Error The property associated with  Skydome  could not be found
+[2016.09.01-08.06.06:441][807]LogBlueprint:Warning: Compiler Warning [3538.38] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 1 Warning(s) [in 579 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:441][807]LogBlueprint:Warning: Compiler Warning [3538.38] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:441][807]LogBlueprint:Warning: Compiler Warning [3538.38] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:441][807]LogBlueprint:Warning: Compiler Warning [3538.38] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:442][807]LogBlueprint:Warning: Compiler Warning [3538.38] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:442][807]LogBlueprint:Warning: Compiler Warning [3538.39] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.06:443][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 607 ms (1 blueprints)
+[2016.09.01-08.06.06:484][807]BlueprintLog: Info Blueprint OceanExampleMap_01 failed to compile
+[2016.09.01-08.06.42:799][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.06.42:799][623]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.01-08.06.42:800][623]LogPlayLevel: [PlayLevel] Compiling OceanExampleMap_01 before play...
+[2016.09.01-08.06.42:824][623]LogBlueprint:Warning: Compiler Warning Could not find a variable named "Skydome" in 'WB_SkyOLD_HUD_C'.
+Make sure 'WB_SkyOLD_HUD_C' has been compiled for  Set Skydome 
+[2016.09.01-08.06.42:827][623]LogBlueprint:Error: Compiler Error The property associated with  Skydome  could not be found
+[2016.09.01-08.06.43:214][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 1 Warning(s) [in 400 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:214][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:214][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:215][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:215][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:215][623]LogBlueprint:Warning: Compiler Warning [3575.16] Compile of PersistentLevel.OceanExampleMap_01 failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01)
+[2016.09.01-08.06.43:216][623]LogPlayLevel: PlayLevel: Blueprint regeneration took 416 ms (1 blueprints)
+[2016.09.01-08.06.43:248][623]BlueprintLog: Info Blueprint OceanExampleMap_01 failed to compile
+[2016.09.01-08.06.45:436][623]PIE: New page: SIE session: OceanExampleMap_01 (Sep 1, 2016, 11:06:45 AM)
+[2016.09.01-08.06.45:436][623]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OceanExampleMap_01
+[2016.09.01-08.06.45:646][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.209182s)
+[2016.09.01-08.06.45:646][623]LogAIModule: Creating AISystem for world OceanExampleMap_01
+[2016.09.01-08.06.45:647][623]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2016.09.01-08.06.45:648][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OceanExampleMap_01.OceanExampleMap_01 to /Game/Maps/UEDPIE_0_OceanExampleMap_01.OceanExampleMap_01 (0.211502s)
+[2016.09.01-08.06.45:678][623]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.01-08.06.45:686][623]LogInit: FAudioDevice initialized.
+[2016.09.01-08.06.45:724][623]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.01-08.06.46:176][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OceanExampleMap_01.OceanExampleMap_01 up for play (max tick rate 60) at 2016.09.01-10.06.46
+[2016.09.01-08.06.46:198][623]LogWorld: Bringing up level for play took: 0.471254
+[2016.09.01-08.06.46:262][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_OceanExampleMap_01 3.212
+[2016.09.01-08.06.46:288][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.06.48:460][674]LogEditorViewport: Clicking on Actor (LMB): BP_SkyOLD_C (BP_Sky)
+[2016.09.01-08.07.07:243][340]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Fishboat2)
+[2016.09.01-08.07.09:891][388]LogEditorViewport: Clicking on Actor (LMB): BP_SkyOLD_C (BP_Sky)
+[2016.09.01-08.15.08:406][923]LogEditorViewport: Clicking on Actor (LMB): BP_SkyOLD_C (BP_Sky)
+[2016.09.01-08.17.28:151][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.17.28:324][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01' with GeneratedClass '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01_C' with ClassGeneratedBy '/Game/Maps/OceanExampleMap_01.OceanExampleMap_01:PersistentLevel.OceanExampleMap_01'
+[2016.09.01-08.17.28:446][271]Cmd: MAP LOAD FILE="C:/Users/jeen1/Desktop/OceanProject-4.12/Content/Maps/TrueSkyOriginal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.01-08.17.28:480][271]LightingResults: New page: Lighting Build
+[2016.09.01-08.17.28:481][271]LoadErrors: New page: Loading map: TrueSkyOriginal.umap
+[2016.09.01-08.17.28:502][271]MapCheck: New page: Map Check
+[2016.09.01-08.17.28:502][271]LightingResults: New page: Lighting Build
+[2016.09.01-08.17.28:552][271]LogLinker:Warning: Asset '../../../Engine/Plugins/TrueSkyPlugin/Content/trueSkyMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.09.01-08.17.28:620][271]LogLinker:Warning: Asset 'C:/Users/jeen1/Desktop/OceanProject
